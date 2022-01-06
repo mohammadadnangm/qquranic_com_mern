@@ -1,0 +1,7 @@
+qorking proxy deleted for heroku
+"proxy": "http://127.0.0.1:5001/",
+
+
+npm i bootstrap
+npm i react-router-dom
+
