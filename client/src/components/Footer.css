@@ -6,6 +6,12 @@ footer {
   background-color: #182334;
   color: #fff;
 }
+ol, ul{
+  padding-left: 0%;
+}
+.footer-copyright{
+  display: flex;
+}
 /* .row3{
   width: 90%;
 } */
@@ -71,6 +77,8 @@ footer .fontawesome-style:hover {
 footer .main-hero-para {
   margin: 0;
 }
+/* @media (min-width: 992px) */
+.col-lg-10{
+width: 90%;
+}
 
-/* --------------------------------- Footer  Section ends  
-                                                  -------------------------------------------------------*/

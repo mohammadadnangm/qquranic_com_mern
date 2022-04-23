@@ -103,12 +103,18 @@ const Footer = () => {
                 </div>
               </div>
               <hr />
+
               <div className="mt-5">
                 <p className="main-hero-para text-center w-100">
                   Copyright @ {new Date().getFullYear()} Quran Tutor. All rights
                   reserved. Made By crudics.com
                 </p>
               </div>
+              {/* <div className="mt-5">
+                <p className="main-hero-para1 text-right ">
+                  Made By crudics.com
+                </p>
+              </div> */}
             </div>
           </div>
         </div>
