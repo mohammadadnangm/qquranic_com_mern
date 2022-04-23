@@ -13,7 +13,7 @@ function ContactusInfo(req, res) {
   const { firstName, lastName, phone, email, address, message } = req.body;
 
   var mailOption = {
-    from: "softin.org@gmail.com",
+    from: "crudics.com@gmail.com",
     to: "mohammadadnangm@gmail.com",
     subject: "Contact-Us",
     html: ` <h2>This mail from east medical system</h2>
