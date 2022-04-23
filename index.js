@@ -10,7 +10,6 @@ const LoginCheck = require("./LoginCheck");
 const LoginForm = require("./LoginForm");
 const SignupForm = require("./SignupForm");
 const ContactusInfo = require("./ContactusInfo");
-const logout = require("./logout");
 dotenv.config({ path: "./config.env" });
 
 const PORT = process.env.PORT || 5001;
@@ -32,12 +31,6 @@ app.post("/signup", SignupForm);
 
 //contact us form route
 app.post("/contactus", ContactusInfo);
-
-//Logout page  route
-app.get("/logout", (req, res) => {
-  res.clearCookie("quranTutor", { path: "/" });
-  res.status(200).send("user logged out");
-});
 
 if (process.env.NODE_ENV == "production") {
   app.use(express.static("client/build"));

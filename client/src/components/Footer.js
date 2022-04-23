@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer>
         <div className="container">
-          <div className="row">
+          <div className="row3">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row">
                 <div className="col-12 col-lg-3">
@@ -106,7 +106,7 @@ const Footer = () => {
               <div className="mt-5">
                 <p className="main-hero-para text-center w-100">
                   Copyright @ {new Date().getFullYear()} Quran Tutor. All rights
-                  reserved.
+                  reserved. Made By crudics.com
                 </p>
               </div>
             </div>

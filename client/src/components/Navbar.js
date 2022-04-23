@@ -6,112 +6,71 @@ import { useHistory } from "react-router-dom";
 import { UserContext } from "../App";
 
 const Navbar = () => {
-  const { state, dispatch } = useContext(UserContext);
-
   const RenderMenu = () => {
-    if (state) {
-      return (
-        <>
-          <li className="nav-item">
-            <NavLink className="nav-link active" aria-current="page" to="/">
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/findtutors">
-              Find Tutors
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/findstudents">
-              Find Students
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/priceplan">
-              Plans
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/aboutme">
-              About Me
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/contact">
-              Contact
-            </NavLink>
-          </li>
+    return (
+      <>
+        {/* <li className="nav-item">
+          <NavLink className="nav-link active" aria-current="page" to="/">
+            Home
+          </NavLink>
+        </li> */}
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/findtutors">
+            Tutors
+          </NavLink>
+        </li>
+        {/* <li className="nav-item">
+          <NavLink className="nav-link" to="/findstudents">
+            Find Students
+          </NavLink>
+        </li> */}
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/priceplan">
+            Fee & Plans
+          </NavLink>
+        </li>
+        {/* <li className="nav-item">
+          <NavLink className="nav-link" to="/aboutme">
+            About Me
+          </NavLink>
+        </li> */}
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/aboutme">
+            About Us
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/contact">
+            Contact Us
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/faqs">
+            FAQs
+          </NavLink>
+        </li>
 
-          <li class="nav-item">
-            <form className="d-flex">
-              <button
-                className="btn  btn-style btn-style-border"
-                type="submit"
-                onClick={() => history.push("/logout")}
-              >
-                LogOut
-              </button>
-            </form>
-          </li>
-        </>
-      );
-    } else {
-      return (
-        <>
-          <li className="nav-item">
-            <NavLink className="nav-link active" aria-current="page" to="/">
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/findtutors">
-              Find Tutors
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/findstudents">
-              Find Students
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/priceplan">
-              Plans
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/aboutme">
-              About Me
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/contact">
-              Contact
-            </NavLink>
-          </li>
-
-          <li class="nav-item">
-            <form className="d-flex">
-              <button
-                className="btn  btn-style"
-                type="submit"
-                //onClick={<Signup />}
-                onClick={() => history.push("/signup")}
-              >
-                Sign Up
-              </button>
-              <button
-                className="btn  btn-style btn-style-border"
-                type="submit"
-                onClick={() => history.push("/signin")}
-              >
-                Log in
-              </button>
-            </form>
-          </li>
-        </>
-      );
-    }
+        <li class="nav-item">
+          <form className="d-flex">
+            <button
+              className="btn  btn-style"
+              type="submit"
+              //onClick={<Signup />}
+              onClick={() => history.push("/signup")}
+            >
+              Register
+            </button>
+            {/* <button
+              className="btn  btn-style btn-style-border"
+              type="submit"
+              onClick={() => history.push("/signin")}
+            >
+              Log in
+            </button> */}
+          </form>
+        </li>
+      </>
+    );
   };
 
   // toggle bar in mobile view click functionality
@@ -124,7 +83,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container">
             <a className="navbar-brand" href="/">
-              Quran Tutor
+              Q Quranic
             </a>
             <button
               className="navbar-toggler"
