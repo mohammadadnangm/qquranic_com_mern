@@ -3,7 +3,7 @@
 
 footer {
   padding: 5rem 0;
-  background-color: #182334;
+  background-color: var(--bgcolor);
   color: #fff;
 }
 ol, ul{
@@ -32,9 +32,6 @@ img {
   margin: -1rem;
 }
 
-footer h2 {
-  color: #fff;
-}
 
 footer li {
   list-style: none;

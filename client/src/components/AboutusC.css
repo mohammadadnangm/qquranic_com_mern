@@ -1,5 +1,5 @@
 .aboutus-section {
-  background: #000;
+  background-color: var(--bgcolor);
   margin-top: 5rem;
   padding-bottom: 1rem;
 }

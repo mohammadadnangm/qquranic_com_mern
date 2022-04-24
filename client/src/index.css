@@ -11,13 +11,14 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  background-color: #b4bdb5;
 }
 
 :root {
-  --bgcolor: #f1f5fd;
-  --primary-color: #1c7435;
-  --text-color: #828286;
-  --main-text-color: #333333;
+  --bgcolor: #b4bdb5;
+  --primary-color: #064909;
+  --text-color: #000000;
+  --main-text-color: #f48209;
 }
 
 html {
@@ -26,7 +27,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 h1,
@@ -35,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333333;
+  color: #064909;
 }
 
 /* --------------------------------- responsive media queries  

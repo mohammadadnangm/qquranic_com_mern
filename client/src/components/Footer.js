@@ -5,6 +5,12 @@ const Footer = () => {
   return (
     <>
       <footer>
+        <hr />
+        <div>
+          <h2>dsfds</h2>
+        </div>
+        <hr />
+
         <div className="container">
           <div className="row3">
             <div className="col-12 col-lg-10 mx-auto">
