@@ -6,7 +6,7 @@ const Features = () => {
   const [aboutData, setAboutData] = useState(howToUseApp);
   return (
     <>
-      <section className="common-section our-services">
+      <section className="common-section our-courses">
         <div className="container mb-5">
           <div className="row">
             <div className="col-12 col-lg-5 text-center our-service-leftside-img">
@@ -14,7 +14,7 @@ const Features = () => {
             </div>
 
             {/* 1section right side data  */}
-            <div className="col-12 col-lg-7 our-services-list">
+            <div className="col-12 col-lg-7 our-courses-list">
               <h3 className="mini-title">Quran Tutor App</h3>
               <h1 className="main-heading">How to use the App?</h1>
 
@@ -22,9 +22,9 @@ const Features = () => {
                 const { id, title, info } = curElem;
                 return (
                   <>
-                    <div className="row our-services-info" key={id}>
-                      <div className="col-1 our-services-number">{id}</div>
-                      <div className="col-10 our-services-data">
+                    <div className="row our-courses-info" key={id}>
+                      <div className="col-1 our-courses-number">{id}</div>
+                      <div className="col-10 our-courses-data">
                         <h2>{title}</h2>
                         <p className="main-hero-para">{info}</p>
                       </div>
@@ -42,11 +42,11 @@ const Features = () => {
 
       {/* 2nd part of bayt us section  */}
 
-      <section className="common-section our-services our-services-rightside">
+      <section className="common-section our-courses our-courses-rightside">
         <div className="container mb-5">
           <div className="row">
             {/* 1section right side data  */}
-            <div className="col-12 col-lg-7 our-services-rightside-content d-flex justify-content-center align-items-start flex-column">
+            <div className="col-12 col-lg-7 our-courses-rightside-content d-flex justify-content-center align-items-start flex-column">
               <h3 className="mini-title">-- SUPPORT IN ANY LANGUAGES</h3>
               <h1 className="main-heading">
                 World class support is <br /> available 24/7
@@ -56,9 +56,9 @@ const Features = () => {
                 const { id, title, info } = curElem;
                 return (
                   <>
-                    <div className="row our-services-info" key={id}>
-                      <div className="col-1 our-services-number">{id}</div>
-                      <div className="col-10 our-services-data">
+                    <div className="row our-courses-info" key={id}>
+                      <div className="col-1 our-courses-number">{id}</div>
+                      <div className="col-10 our-courses-data">
                         <h2>{title}</h2>
                         <p className="main-hero-para">{info}</p>
                       </div>

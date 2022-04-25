@@ -1,3 +1,5 @@
+/* use app section start */
+
 .useapp-section {
   margin-top: 5rem;
 }
@@ -54,16 +56,16 @@
   margin: 1rem 0;
 }
 
-/* 2nd section of about us  */
 .useapp-section .useapp-button {
   height: 50px;
   width: 200px;
 }
 
-.our-services-rightside {
+.our-courses-rightside {
   margin-top: 10rem;
 }
 
-.our-services-rightside-content {
+.our-courses-rightside-content {
   padding-left: 8rem;
 }
+/* use app section start */

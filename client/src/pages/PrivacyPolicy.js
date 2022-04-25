@@ -1,17 +1,19 @@
 import React from "react";
-import "./FaQs.css";
+import "./PrivacyPolicy.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
-const FaQs = () => {
+const PrivacyP = () => {
   return (
     <>
-      {/* 2nd part of bayt us section  */}
+      <Navbar />
 
-      <section className="common-section our-services our-services-rightside">
+      <section className="common-section our-courses our-courses-rightside">
         <div className="container mb-5">
           <div className="row">
             {/* 1section right side data  */}
-            <div className="col-12 col-lg-7 our-services-rightside-content d-flex justify-content-center align-items-start flex-column">
-              <h3 className="mini-title">FaQs</h3>
+            <div className="col-12 col-lg-7 our-courses-rightside-content d-flex justify-content-center align-items-start flex-column">
+              <h3 className="mini-title">PrivacyPolicy</h3>
               <h1 className="main-heading">A Brief Summary</h1>
               <p className="description">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -32,8 +34,10 @@ const FaQs = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 };
 
-export default FaQs;
+export default PrivacyP;

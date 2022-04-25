@@ -1,13 +1,13 @@
 import React from "react";
+import "./HomePage.css";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import HowItWorks from "../components/HowItWorks";
 import Numbers from "../components/Numbers";
-import Services from "../components/Services";
+import Courses from "../components/Courses";
 import AboutUs from "../components/AboutusC";
 import UseApp from "../components/UseApp";
 import WhyUs from "../components/WhyUs";
-import ForTutor from "../components/ForTutor";
 import Footer from "../components/Footer";
 //import Testimonials from "./Testimonials";
 
@@ -18,11 +18,10 @@ const Home = () => {
       <Header />
       <HowItWorks />
       <Numbers />
-      <Services />
+      <Courses />
       <AboutUs />
       <UseApp />
       <WhyUs />
-      <ForTutor />
       {/* <Testimonials /> */}
       <Footer />
     </>

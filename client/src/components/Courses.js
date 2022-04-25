@@ -1,16 +1,14 @@
 import React, { useState } from "react";
-import "./Services.css";
-import servicesApi from "../API/servicesApi.js";
+import "./Courses.css";
+import coursesApi from "../API/coursesApi.js";
 
-const Services = () => {
-  const [serviceData] = useState(servicesApi);
+const Courses = () => {
+  const [serviceData] = useState(coursesApi);
   return (
     <>
       <section className="service-section">
         <div className="container service-container justify-content-center">
-          <h1 className="main-heading text-center fw-bold">
-            Our Best Services
-          </h1>
+          <h1 className="main-heading text-center fw-bold">Our Courses</h1>
           <div className="row">
             {serviceData.map((curElem) => {
               const { id, logo, title, info } = curElem;
@@ -34,4 +32,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Courses;

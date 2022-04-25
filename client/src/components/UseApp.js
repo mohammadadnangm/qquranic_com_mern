@@ -13,8 +13,6 @@ const UseApp = () => {
               <img src="./images/appimg.jpeg" alt="aboutusIMg" />
             </div>
 
-            {/* 2nd section right side data  */}
-
             <div className="col-12 col-lg-7 useapp-section-rightside d-flex justify-content-center align-items-start flex-column">
               <h3 className="mini-title">Quran Tutor App</h3>
               <p className="mini-para">

@@ -6,11 +6,11 @@ const FindTutors = () => {
     <>
       {/* 2nd part of bayt us section  */}
 
-      <section className="common-section our-services our-services-rightside">
+      <section className="common-section our-courses our-courses-rightside">
         <div className="container mb-5">
           <div className="row">
             {/* 1section right side data  */}
-            <div className="col-12 col-lg-7 our-services-rightside-content d-flex justify-content-center align-items-start flex-column">
+            <div className="col-12 col-lg-7 our-courses-rightside-content d-flex justify-content-center align-items-start flex-column">
               <h3 className="mini-title">Find Your Tutor Here</h3>
               <h1 className="main-heading">A Brief Summary</h1>
               <p className="description">

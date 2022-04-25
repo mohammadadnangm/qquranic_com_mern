@@ -6,10 +6,6 @@ const Footer = () => {
     <>
       <footer>
         <hr />
-        <div>
-          <h2>dsfds</h2>
-        </div>
-        <hr />
 
         <div className="container">
           <div className="row3">
@@ -31,7 +27,7 @@ const Footer = () => {
                       <a href="/pricingplan">Prices and Plans</a>
                     </li>
                     <li>
-                      <a href="/service">Services</a>
+                      <a href="/courses">Courses</a>
                     </li>
                     <li>
                       <a href="/privacypolicy">Privacy Policy</a>

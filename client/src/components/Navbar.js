@@ -19,23 +19,23 @@ const Navbar = () => {
             Tutors
           </NavLink>
         </li>
-        {/* <li className="nav-item">
-          <NavLink className="nav-link" to="/findstudents">
-            Find Students
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/courses">
+            Courses
           </NavLink>
-        </li> */}
+        </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/priceplan">
             Fee & Plans
           </NavLink>
         </li>
-        {/* <li className="nav-item">
-          <NavLink className="nav-link" to="/aboutme">
-            About Me
-          </NavLink>
-        </li> */}
         <li className="nav-item">
           <NavLink className="nav-link" to="/aboutme">
+            Read
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/aboutus">
             About Us
           </NavLink>
         </li>
@@ -55,7 +55,6 @@ const Navbar = () => {
             <button
               className="btn  btn-style"
               type="submit"
-              //onClick={<Signup />}
               onClick={() => history.push("/signup")}
             >
               Register
