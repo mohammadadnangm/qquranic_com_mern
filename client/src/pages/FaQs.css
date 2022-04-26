@@ -1,0 +1,40 @@
+.FaqDiv{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+}
+.QuestionButton{
+    border: none;
+    width: 100%;
+}
+.QuestionButton .QuestionPeragraph{
+    font-size: large;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+.QuestionAnswer{
+    display: none;
+    text-align: justify;
+    padding: 20px;
+    font-size: 13px;
+    transition: all 1s ease-in;
+}
+.QuestionButton:hover{
+    color: black;
+}
+.QuestionButton:active .QuestionAnswer{
+    display: block;
+    border-top: 1px solid black;
+    transform: rotateX(-90deg);
+    transition: 1s;
+}
+.QuestionButton:focus .QuestionAnswer{
+    display: block;
+    border-top: 1px solid black;
+    transform: rotateX(0deg);
+    transition: 1s;
+}
+.MainHeading{
+    margin-top: 50px;
+}
