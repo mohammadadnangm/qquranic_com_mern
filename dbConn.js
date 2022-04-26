@@ -18,7 +18,7 @@ dotenv.config({ path: "./config.env" });
 //   });
 
 //connection with mongodb online server
-const LiveDB = process.env.DATABASE;
+const LiveDB = process.env.LOCALDATABASE;
 mongoose
   .connect(LiveDB, { useUnifiedTopology: true, useNewUrlParser: true })
 

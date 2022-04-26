@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 
 const ContactUs = () => {
   const history = useHistory();
+  var [response, setresponse] = useState("");
   const [userData, setUserData] = useState({
     firstName: "",
     lastName: "",
@@ -27,10 +28,15 @@ const ContactUs = () => {
     axios
       .post("/contactus", userData)
       .then((res) => {
-        alert(res.data.message);
-        history.push("/");
+        if (res.data) {
+          setresponse(res.data);
+        } else {
+          history.push("/");
+        }
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        setresponse("Oops! 500 server error");
+      });
   }
 
   return (
@@ -147,7 +153,7 @@ const ContactUs = () => {
                         email address or phone number above
                       </label>
                     </div>
-
+                    <h4 className="text-danger text-center">{response}</h4>
                     <button
                       type="submit"
                       className="btn btn-style w-100"
