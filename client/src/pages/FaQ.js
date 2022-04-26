@@ -468,7 +468,7 @@ const FaQ = () => {
             </p>
           </Link>
         </div>
-        {/* there is start Billing question.............................................. */}
+        {/* there is start Billing question............................................ */}
         <h1 className="mx-4 MainHeading">Billing:</h1>
         <div className="FaqDiv">
           <Link to="#" className="QuestionButton">
