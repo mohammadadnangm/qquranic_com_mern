@@ -8,10 +8,18 @@ const Aboutus = () => {
     <>
       <Navbar />
 
+      {/* header start */}
+      <div class="container">
+        <div class="page-header text-center ">
+          <h1>Example Page Header</h1>
+        </div>
+      </div>
+      {/* header end */}
+
       <section className="aboutus-section">
         <div className="container mb-5 aboutus-container">
           <div className="row">
-            {/* images section  right side*/}
+            {/* images section  left side*/}
             <div className="col-12 col-lg-5 text-center  aboutus-section-rightside-img">
               <img
                 src="./images/aboutsection.png"
@@ -20,7 +28,7 @@ const Aboutus = () => {
               />
             </div>
 
-            {/* 1section left side data  */}
+            {/* 1section right side data  */}
             <div className="col-12 col-lg-7 d-flex justify-content-center align-items-start flex-column aboutus-section-lefttside">
               <h1 className="title">About Quran Tutor</h1>
               <h3 className="heading">A Brief Summary</h3>
