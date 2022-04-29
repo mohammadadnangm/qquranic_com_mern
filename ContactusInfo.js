@@ -30,7 +30,7 @@ function ContactusInfo(req, res) {
     //send email to user for verify
     transporter.sendMail(mailOption, function (err, info) {
       if (err) {
-        console.log("error occured backend");
+        res.end("Email not sent check your internet connection");
       } else {
         res.send();
       }
