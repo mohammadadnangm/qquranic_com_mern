@@ -6,8 +6,6 @@ import Footer from "../components/Footer";
 const FindTutor = () => {
   return (
     <>
-      <Navbar />
-
       <FindTutors />
 
       <Footer />

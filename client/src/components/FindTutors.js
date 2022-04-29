@@ -34,6 +34,257 @@ const FindTutors = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="MainDivTutorCards">
+          {/* <div className="CustomCard">
+            <div>
+              <img
+                src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                className="center"
+              />
+            </div>
+            <div>
+              <h3>there is heading</h3>
+              <p>Available</p>
+              <p>some discription about tutor</p>
+            </div>
+          </div> */}
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Candidate Name</h5>
+              <tr>
+                <td>Education:</td>
+                <td> BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td> Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td> 5 years</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td> +923040070085</td>
+              </tr>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

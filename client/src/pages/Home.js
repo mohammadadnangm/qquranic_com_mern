@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomePage.css";
-import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import HowItWorks from "../components/HowItWorks";
 import Numbers from "../components/Numbers";
@@ -13,8 +12,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <>
-      <Navbar />
+    <div>
       <Header />
       <HowItWorks />
       <Numbers />
@@ -22,9 +20,8 @@ const Home = () => {
       <AboutUs />
       <UseApp />
       <WhyUs />
-      {/* <Testimonials /> */}
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -1,0 +1,53 @@
+.MainDivTutorCards{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.MainDivTutorCards div{
+    margin: 50px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.MainDivTutorCards img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MainDivTutorCards td{
+    background-color: white;
+    padding: 5px;
+}
+.MainDivTutorCards pre{
+    background-color: white;
+    text-align: center;
+}
+.MainDivTutorCards h5{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: #b4bdb5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .MainDivTutorCards p{
+        text-align: justify;
+        padding-top: 10px;
+        padding: 0px;
+    }
+    .card{
+        width: 200px;
+        height: auto;
+    }
+    .MainDivTutorCards div{
+        margin: 10px;
+        padding-top: 20px;
+        background-color: white;
+    }
+}
