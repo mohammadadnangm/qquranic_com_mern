@@ -34,6 +34,160 @@ const FindTutors = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="CardsMainDiv">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.unsplash.com/photo-1576764402988-7143f9cca90a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <tr>
+                <td>Education:</td>
+                <td>BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td>5 Year</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td>+923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.unsplash.com/photo-1576764402988-7143f9cca90a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <tr>
+                <td>Education:</td>
+                <td>BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td>5 Year</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td>+923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.unsplash.com/photo-1576764402988-7143f9cca90a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <tr>
+                <td>Education:</td>
+                <td>BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td>5 Year</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td>+923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.unsplash.com/photo-1576764402988-7143f9cca90a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <tr>
+                <td>Education:</td>
+                <td>BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td>5 Year</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td>+923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.unsplash.com/photo-1576764402988-7143f9cca90a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <tr>
+                <td>Education:</td>
+                <td>BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td>5 Year</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td>+923040070085</td>
+              </tr>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://images.unsplash.com/photo-1576764402988-7143f9cca90a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <tr>
+                <td>Education:</td>
+                <td>BSIT</td>
+              </tr>
+              <tr>
+                <td>Status:</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>Experience:</td>
+                <td>5 Year</td>
+              </tr>
+              <tr>
+                <td>Whatsapp:</td>
+                <td>+923040070085</td>
+              </tr>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
