@@ -4,6 +4,7 @@ import "./FindTutors.css";
 const FindTutors = () => {
   return (
     <>
+      <h1 className="HeaderName">Find Tutor</h1>
       {/* 2nd part of bayt us section  */}
 
       <section className="common-section our-courses our-courses-rightside">

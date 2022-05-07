@@ -7,7 +7,7 @@ const PrivacyP = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">Price Plans</h1>
       <section className="common-section our-courses our-courses-rightside">
         <div className="container mb-5">
           <div className="row">

@@ -7,7 +7,7 @@ const Course = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">Courses</h1>
       <Courses />
 
       <Footer />

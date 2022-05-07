@@ -7,7 +7,7 @@ const Aboutme = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">About Me</h1>
       <AboutmeC />
 
       <Footer />

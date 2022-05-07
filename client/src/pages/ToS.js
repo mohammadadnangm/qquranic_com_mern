@@ -7,7 +7,7 @@ const ToS = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">Tos</h1>
       <section className="common-section our-services our-services-rightside">
         <div className="container mb-5">
           <div className="row">

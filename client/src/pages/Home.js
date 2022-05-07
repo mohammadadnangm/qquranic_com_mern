@@ -15,6 +15,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
+      <h1 className="HeaderName">Home</h1>
       <Header />
       <HowItWorks />
       <Numbers />

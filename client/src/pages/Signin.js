@@ -7,7 +7,7 @@ const Signin = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">Sign-In</h1>
       <SigninC />
 
       <Footer />

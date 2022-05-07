@@ -7,7 +7,6 @@
 
 .navbar-bg {
   background-color: var(--bgcolor);
-  padding: 2rem 0;
   z-index: 99;
   position: relative;
 }
@@ -65,5 +64,15 @@
   text-transform: capitalize;
 }
 
+.HeadImage{
+  width: 100%;
+  height: 750px;
+}
+@media screen and (max-width: 800px){
+  .HeadImage{
+    width: 100%;
+    height: 300px;
+  }
+}
 /* --------------------------------- Navbar ends  
                                                   -------------------------------------------------------*/

@@ -7,7 +7,7 @@ const Quran = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">Quran</h1>
       <QuranReading />
 
       <Footer />

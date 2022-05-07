@@ -7,7 +7,7 @@ const Aboutus = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">About-Us</h1>
       {/* header start */}
       <div class="container">
         <div class="page-header text-center ">

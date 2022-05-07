@@ -7,9 +7,8 @@ const Qaida = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">Qaida</h1>
       <QaidaReading />
-
       <Footer />
     </>
   );

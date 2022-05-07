@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">Contact</h1>
       <ContactsUs />
 
       <Footer />

@@ -7,7 +7,7 @@ const Signup = () => {
   return (
     <>
       <Navbar />
-
+      <h1 className="HeaderName">Sign-Up</h1>
       <SignupC />
 
       <Footer />
