@@ -7,14 +7,23 @@ const Aboutus = () => {
   return (
     <>
       <Navbar />
-      <h1 className="HeaderName">About-Us</h1>
-      {/* header start */}
-      <div class="container">
-        <div class="page-header text-center ">
-          <h1>Example Page Header</h1>
+
+      {/* page header start */}
+      <div
+        className="p-5 text-center bg-image"
+        style={{
+          backgroundImage:
+            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          height: 400,
+        }}
+      >
+        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+          <div className="page-header-text">
+            <h1 className="mb-3 page-header-text">About Us</h1>
+          </div>
         </div>
       </div>
-      {/* header end */}
+      {/* page header end */}
 
       <section className="aboutus-section">
         <div className="container mb-5 aboutus-container">

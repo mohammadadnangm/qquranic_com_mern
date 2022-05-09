@@ -29,7 +29,7 @@ const SignupC = () => {
     if (name && email && phone && work && password && password === cpassword) {
       axios.post("/signup", user).then((res) => {
         alert(res.data.message);
-        history.push("/signin");
+        history.push("/");
       });
     } else {
       alert("invlid input front end");

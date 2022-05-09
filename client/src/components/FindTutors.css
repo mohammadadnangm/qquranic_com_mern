@@ -1,3 +1,15 @@
+.bg-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .page-header-title{
+    background-color: transparent;
+  }
+  .page-header-text{
+    background-color: transparent;
+    font-size: 50px;
+    color: white;
+  }
 .CardsMainDiv{
     display: flex;
     justify-content: center;

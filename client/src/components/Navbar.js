@@ -104,12 +104,12 @@ const Navbar = () => {
           </div>
         </nav>
       </section>
-      <div>
+      {/* <div>
         <img
           className="HeadImage"
           src="https://images.pexels.com/photos/8522572/pexels-photo-8522572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         />
-      </div>
+      </div> */}
     </>
   );
 };

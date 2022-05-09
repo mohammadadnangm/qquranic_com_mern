@@ -1,11 +1,15 @@
-.page-header{
-  background-color: red;
+.bg-image{
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/* .header{
+.page-header-title{
+  background-color: transparent;
+}
+.page-header-text{
+  background-color: transparent;
+  font-size: 50px;
   color: white;
-  padding-top: 10%;
-  padding-bottom: 5%;
-} */
+}
 .aboutus-section {
   background-color: var(--bgcolor);
   margin-top: 5rem;
