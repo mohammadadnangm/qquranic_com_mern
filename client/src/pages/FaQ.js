@@ -8,7 +8,24 @@ const FaQ = () => {
   return (
     <>
       <Navbar />
-      <h1 className="HeaderName">FaQ</h1>
+
+      {/* page header start */}
+      <div
+        className="p-5 text-center bg-image"
+        style={{
+          backgroundImage:
+            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          height: 400,
+        }}
+      >
+        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+          <div className="page-header-text">
+            <h1 className="mb-3 page-header-text">FAQs</h1>
+          </div>
+        </div>
+      </div>
+      {/* page header end */}
+
       <section className="common-section our-courses our-courses-rightside">
         <div className="container mb-5">
           <div className="row">

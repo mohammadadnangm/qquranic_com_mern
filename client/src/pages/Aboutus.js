@@ -1,4 +1,5 @@
 import React from "react";
+import "./PageHeader.css";
 import "./Aboutus.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -52,9 +53,9 @@ const Aboutus = () => {
               </p>
 
               <br />
-              <button className="btn-style btn-style-border aboutus-section-button">
+              {/* <button className="btn-style btn-style-border aboutus-section-button">
                 About Us
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

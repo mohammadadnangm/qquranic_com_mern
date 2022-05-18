@@ -11,14 +11,14 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: #b4bdb5;
+  background-color: #f1f5fb;
 }
 
 :root {
-  --bgcolor: #b4bdb5;
+  --bgcolor: #f1f5fb;
   --primary-color: #064909;
   --text-color: #000000;
-  --main-text-color: #f48209;
+  --fancy-color: #f48209;
 }
 
 html {
@@ -37,6 +37,9 @@ h4,
 h5,
 h6 {
   color: #064909;
+}
+p{
+  color: rgba(0,0,0,.9);
 }
 
 /* --------------------------------- responsive media queries  

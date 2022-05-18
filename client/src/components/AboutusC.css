@@ -14,7 +14,7 @@
 }
 
 .aboutus-section .description {
-  color: azure;
+  color: var(--text-color);
   font-size: 15px;
 }
 

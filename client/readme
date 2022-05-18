@@ -1,5 +1,9 @@
-qorking proxy deleted for heroku
+working proxy deleted for heroku
 "proxy": "http://127.0.0.1:5001/",
+
+working lsst time, i have deleted to deploye app on heroku,,,write after private
+  "proxy": "http://localhost:5001",
+
 
 
 npm i bootstrap

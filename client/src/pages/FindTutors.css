@@ -1,0 +1,63 @@
+.bg-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .page-header-title{
+    background-color: transparent;
+  }
+  .page-header-text{
+    background-color: transparent;
+    font-size: 50px;
+    color: white;
+  }
+.CardsMainDiv{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.card{
+    width: 300px;
+    border-radius: 10px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card div{
+    background-color: white;
+}
+.card h5{
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: white;
+}
+.card td{
+    background-color: white;
+    padding: 10px;
+}
+.card p{
+    background-color: white;
+}
+.CardsMainDiv img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 600px){
+    .card{
+        width: 200px;
+        border-radius: 10px;
+        height: 300px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .card td{
+        background-color: white;
+        padding: 3px;
+    }
+}

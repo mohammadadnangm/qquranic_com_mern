@@ -1,6 +1,12 @@
 /* --------------------------------- Footer  Section starts  
                         -------------------------------------------------------*/
 
+.hr-footer-top{
+  color: black;
+}
+.hr-footer-bottom{
+  color: black;
+}
 footer {
   padding: 5rem 0;
   background-color: var(--bgcolor);
@@ -17,7 +23,7 @@ ol, ul{
 } */
 .row2 {
   /* background-color: aquamarine; */
-  margin-top: 1rem;
+  margin-top: 2rem;
   align-items: left;
   text-align: left;
   justify-content: left;

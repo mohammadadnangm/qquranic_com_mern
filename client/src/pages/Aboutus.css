@@ -1,15 +1,4 @@
-.bg-image{
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.page-header-title{
-  background-color: transparent;
-}
-.page-header-text{
-  background-color: transparent;
-  font-size: 50px;
-  color: white;
-}
+
 .aboutus-section {
   background-color: var(--bgcolor);
   margin-top: 5rem;
@@ -19,14 +8,14 @@
   width: 90%;
 }
 .aboutus-section .title {
-  color: aliceblue;
+  color: var(--primary-color);
 }
 .aboutus-section .heading {
-  color: aliceblue;
+  color: var(--fancy-color);
 }
 
 .aboutus-section .description {
-  color: azure;
+  color: var(--text-color);
   font-size: 15px;
 }
 

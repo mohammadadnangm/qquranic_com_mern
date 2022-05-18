@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <hr />
+        <hr className="hr-footer-top" />
 
         <div className="container">
           <div className="row3">
@@ -104,7 +104,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <hr />
+              <hr className="hr-footer-bottom" />
 
               <div className="mt-5">
                 <p className="main-hero-para text-center w-100">
