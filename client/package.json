@@ -3,7 +3,6 @@
   "description": "Learn Quran Online",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5001",
   "secure":false,
   "engines": {
     "node": "17.2.0",
