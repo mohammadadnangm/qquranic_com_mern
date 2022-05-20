@@ -26,7 +26,7 @@ app.get("/aboutme", LoginCheck);
 //sign in route
 app.post("/signin", LoginForm);
 
-//Signup Route
+//Signup/Register Route
 app.post("/signup", SignupForm);
 
 //contact us form route

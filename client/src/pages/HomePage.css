@@ -112,7 +112,7 @@
   .service-section .main-heading {
     margin: 3rem 0;
   }
-  
+/*   
   .work-container-subdiv {
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
   }
@@ -134,7 +134,7 @@
     text-align: left;
     margin: 2rem 0;
   }
-  
+   */
   @media (min-width: 1400px) {
     .service-container .col-xxl-4 {
       flex: 0 0 auto;
@@ -314,7 +314,7 @@
   /* features section end */
   
 /* how it works start */
-
+/* 
 .work-container {
     width: 90vw;
     padding: 2rem;
@@ -362,7 +362,7 @@
     border-radius: 5px;
     font-size: 15px;
     width: 200px;
-  }
+  } */
   
   /* how it works end */
 

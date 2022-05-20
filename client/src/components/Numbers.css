@@ -1,10 +1,7 @@
-/* --------------------------------- Numbers Section  starts  
-                        -------------------------------------------------------*/
+
 .numbers-section {
-  background-color: var(--bgcolor);
-  /* height: 20%; */
-  /* width: 80%; */
-  margin-top: 5rem;
+  margin-top: 10rem;
+  
 }
 
 .numbers-container {
@@ -13,17 +10,35 @@
   text-align: center;
   align-items: center;
   width: 90vw;
+  
 }
 .numbers-section .row {
   justify-content: center;
   text-align: center;
   align-items: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
-.numbers h2 {
-  font-size: 40px;
+@media (min-width: 992px){
+  .numbers-section .row {
+    margin-left:90px;
+    margin-right: 90px;
+  
+  }
+}
+@media (max-width: 992px){
+  .numbers-section .row {
+    margin-left:20px;
+    margin-right: 20px;
+  
+  }
+}
+.number-title{
+  font-size: 30px;
   font-weight: bolder;
+  color: var(--fancy-color);
 }
-.numbers p {
-  font-size: 20px;
+.number-heading {
+  font-size: 14px;
 }
-/* /* --------------------------------- Numbers Section  End  */

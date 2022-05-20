@@ -1,11 +1,6 @@
 
-header {
-  /* background-color: var(--bgcolor); */
-  border-color: green;
-  min-height: 80vh;
-  width: 100%;
-  padding-bottom: 2rem;
-  margin-top: 10rem;
+.header-section{
+  margin-bottom: 0px;
 }
 
 .header-container {
@@ -44,12 +39,23 @@ header {
 /* right side of hero section  */
 
 
-
-/* .header-right-side {
-  background-color: aqua;
-} */
 .form-row{
   line-height: 3rem;
+}
+@media (min-width: 992px){
+  .form-row{
+    width: 80%;
+    margin-top: 12rem;
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 992px){
+  .form-row{
+    margin-top: 6rem;
+    margin-left: 0px;
+    margin-right: 0px;  
+  }
 }
 
 .form-rows,

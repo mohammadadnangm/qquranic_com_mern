@@ -18,7 +18,7 @@ app.use(cookieParser());
 //Sign Up Routes
 
 function SignupForm(req, res) {
-  const { name, email, phone, work, password, cpassword } = req.body;
+  const { name, email, number, course, country } = req.body;
   User.findOne({ email: email }, (err, user) => {
     if (user) {
       res.send({ message: "User already registerd backend" });
@@ -27,9 +27,8 @@ function SignupForm(req, res) {
         name,
         email,
         phone,
-        work,
-        password,
-        cpassword,
+        course,
+        country,
       });
       user.save((err) => {
         if (err) {

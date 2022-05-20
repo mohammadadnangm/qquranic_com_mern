@@ -26,9 +26,7 @@ const Footer = () => {
                     <li>
                       <a href="/pricingplan">Prices and Plans</a>
                     </li>
-                    <li>
-                      <a href="/courses">Courses</a>
-                    </li>
+
                     <li>
                       <a href="/privacypolicy">Privacy Policy</a>
                     </li>
@@ -41,9 +39,9 @@ const Footer = () => {
                 <div className="col-12 col-lg-3">
                   <h2>Download App</h2>
                   <ul>
-                    <li>
+                    {/* <li>
                       <a href="/">IOS</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="/">Android</a>
                     </li>
@@ -60,11 +58,14 @@ const Footer = () => {
                       <a href="/findtutors">Find Tutors</a>
                     </li>
                     <li>
-                      <a href="/findtutors">Find Students</a>
+                      <a href="/testimonials">Testimonials</a>
                     </li>
                     <li>
-                      <a href="/quran">Read Quran</a>
+                      <a href="/howitworks">How It Works?</a>
                     </li>
+                    {/* <li>
+                      <a href="/quran">Read Quran</a>
+                    </li> */}
                     <li>
                       <a href="/qaida">Read Qaida</a>
                     </li>
@@ -91,11 +92,11 @@ const Footer = () => {
                   </div>
 
                   <div className="row2">
-                    <div className="col-12 mx-auto img1">
+                    {/* <div className="col-12 mx-auto img1">
                       <a href="/">
                         <img src="./images/appstore.png" alt="App Store" />
                       </a>
-                    </div>
+                    </div> */}
                     <div className="col-12 mx-auto img2">
                       <a href="/">
                         <img src="./images/playstore.png" alt="App Store" />
@@ -109,7 +110,7 @@ const Footer = () => {
               <div className="mt-5">
                 <p className="main-hero-para text-center w-100">
                   Copyright @ {new Date().getFullYear()} Quran Tutor. All rights
-                  reserved. Made By crudics.com
+                  reserved. Made By <a href="https://crudics.com">crudics</a>
                 </p>
               </div>
               {/* <div className="mt-5">

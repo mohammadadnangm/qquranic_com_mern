@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import "./HowItWorks.css";
 import howItWorkApi from "../API/howItWorkApi.js";
+import { NavLink } from "react-router-dom";
 
 const HowItWorks = () => {
   const [workData] = useState(howItWorkApi);
   console.log(workData);
   return (
     <>
-      <section>
-        <div className="work-container container">
+      <section className="howitworks-section">
+        <div className="container work-container ">
           <h1 className="main-heading text-center"> How It Works?</h1>
           <h3 className="sub-heading text-center"> 3 easy steps to start</h3>
           <div className="row">
@@ -25,9 +26,11 @@ const HowItWorks = () => {
               );
             })}
           </div>
-          <div className="d-grid gap-2 col-3 mx-auto find-tutor-button">
-            <button className="btn btn-primary" type="button">
-              Find Tutor
+          <div className="text-center col-3 mx-auto find-tutor-button">
+            <button className="btn-stylesd" type="button">
+              <NavLink className="ft-nav-btn" to="/findtutors">
+                Find Tutors
+              </NavLink>
             </button>
           </div>
         </div>

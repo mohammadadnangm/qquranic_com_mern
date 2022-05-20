@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router";
 import Home from "./pages/Home";
 import FindTutor from "./pages/FindTutor";
 import PricePlan from "./pages/PricePlan";
+import HowItWorks from "./pages/HowItWorks";
 import Quran from "./pages/Quran";
 import Qaida from "./pages/Qaida";
 import Aboutus from "./pages/Aboutus";
@@ -31,6 +32,7 @@ const App = () => {
           <Route exact path="/" component={Home}></Route>
           <Route path="/findtutors" component={FindTutor}></Route>
           <Route path="/priceplan" component={PricePlan}></Route>
+          <Route path="/howitworks" component={HowItWorks}></Route>
           <Route path="/quran" component={Quran}></Route>
           <Route path="/qaida" component={Qaida}></Route>
           <Route path="/aboutus" component={Aboutus}></Route>

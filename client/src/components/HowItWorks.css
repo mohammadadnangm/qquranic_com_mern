@@ -1,13 +1,58 @@
-/* how it works start */
-
-.work-container {
-  width: 90vw;
-  padding: 2rem;
-  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
-  margin-top: 5rem;
+.howitworks-section{
+  margin-top: 8rem;
   background-color: var(--bgcolor);
-  border-radius: 0.5rem;
 }
+.work-container {
+  width: 90%;
+  
+}
+.main-hero-para,
+.sub-heading{
+  background-color: transparent;
+}
+
+.work-container-subdiv {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.work-container-subdiv:hover {
+  background-color: var(--bgcolor);
+  cursor: pointer;
+}
+
+.work-container-subdiv:hover > .fontawesome-style {
+  background-color: #fff;
+}
+
+.work-container-subdiv .main-hero-para {
+  width: 100%;
+}
+
+.work-section .courses-container-subdiv .fontawesome-style {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+@media (min-width: 1400px) {
+  .work-container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .work-container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
 
 .work-container .main-heading {
   font-size: 3rem;
@@ -17,16 +62,11 @@
 }
 .work-container .sub-heading {
   margin-bottom: 50px;
-}
-
-.work-container-subdiv {
-  padding: 1rem;
-}
-
-.work-container .sub-heading {
+  color: var(--fancy-color);
   font-size: 2rem;
   font-weight: normal;
 }
+
 
 .fontawesome-style {
   font-size: 2.3rem;
@@ -41,12 +81,28 @@
   margin: 2rem auto;
 }
 
+
 .find-tutor-button button {
   margin-top: 4rem;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 15px;
-  width: 200px;
+  width: 12rem;
+  height: 5rem;
+  border-radius: 2rem;
+  /* font-size: 15px; */
+  /* width: 200px; */
 }
-
-/* how it works end */
+/* .find-tutor-button button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+} */
+.ft-nav-btn{
+  width: 12rem;
+  height: 4rem;
+  color: var(--primary-color);
+  background-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+.ft-nav-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}

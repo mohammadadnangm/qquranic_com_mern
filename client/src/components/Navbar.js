@@ -49,6 +49,11 @@ const Navbar = () => {
             FAQs
           </NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/howitworks">
+            How
+          </NavLink>
+        </li>
 
         <li class="nav-item">
           <form className="d-flex">

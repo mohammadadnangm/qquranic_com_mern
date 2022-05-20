@@ -13,9 +13,8 @@ const Signup = () => {
     name: "",
     email: "",
     phone: "",
-    work: "",
-    password: "",
-    cpassword: "",
+    course: "",
+    country: "",
   });
 
   const handleChange = (e) => {
@@ -28,8 +27,8 @@ const Signup = () => {
 
   const Signup = (e) => {
     e.preventDefault();
-    const { name, email, phone, work, password, cpassword } = user;
-    if (name && email && phone && work && password && password === cpassword) {
+    const { name, email, phone, course, country } = user;
+    if (name && email && phone && course && country) {
       axios.post("/signup", user).then((res) => {
         alert(res.data.message);
         history.push("/");
@@ -119,49 +118,39 @@ const Signup = () => {
                           id="phone"
                           autoComplete="off"
                           className="form-control"
-                          placeholder="Phone Number "
+                          placeholder="WhatsApp Number "
                           value={user.phone}
                           onChange={handleChange}
                         />
                       </div>
                       <div className="col-12 col-lg-6 signup-input-feild">
-                        <input
-                          type="text"
-                          name="work"
-                          id="work"
-                          autoComplete="off"
-                          className="form-control"
-                          placeholder="Work"
-                          value={user.work}
+                        <select
+                          name="course"
+                          id="course"
+                          class="form-select "
+                          value={user.course}
                           onChange={handleChange}
-                        />
+                        >
+                          <option selected>Select Course</option>
+                          <option>Basic Qaida</option>
+                          <option>Quran with Tajweed</option>
+                          <option>Quran Memorization</option>
+                          <option>Quran Translation</option>
+                          <option>Quran Tafseer</option>
+                          <option>Namaz, Kalma, Dua</option>
+                        </select>
                       </div>
                     </div>
                     <div className="row">
                       <div className="col-12 signup-input-feild">
                         <input
                           type="text"
-                          name="password"
-                          id="password"
+                          name="country"
+                          id="country"
                           autoComplete="off"
                           className="form-control"
-                          placeholder="Password"
-                          value={user.password}
-                          onChange={handleChange}
-                        />
-                      </div>
-                    </div>
-
-                    <div className="row">
-                      <div className="col-12 ">
-                        <input
-                          type="text"
-                          name="cpassword"
-                          id="cpassword"
-                          autoComplete="off"
-                          className="form-control"
-                          placeholder="Confirm Password"
-                          value={user.cpassword}
+                          placeholder="Country"
+                          value={user.country}
                           onChange={handleChange}
                         />
                       </div>

@@ -1,7 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./Header.css";
+import axios from "axios";
 
 const Header = () => {
+  const history = useHistory();
+
+  const [user, setUser] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    course: "",
+    country: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUser({
+      ...user,
+      [name]: value,
+    });
+  };
+
+  const Signup = (e) => {
+    e.preventDefault();
+    const { name, email, phone, course, country } = user;
+    if (name && email && phone && course && country) {
+      axios.post("/signup", user).then((res) => {
+        alert(res.data.message);
+        history.push("/");
+      });
+    } else {
+      alert("Please fill all fields correctly!");
+    }
+  };
   return (
     <>
       <header className="header-section ">
@@ -18,10 +50,8 @@ const Header = () => {
               </p>
               <h3>Want to know more about us?</h3>
               <div className="two btn">
-                <button className="btn-style btn-style-border aboutus-section-button">
-                  About Us
-                </button>
-                <button className="btn-style2 btn-style-border aboutus-section-button">
+                <button className="btn-style btn-style-border">About Us</button>
+                <button className="btn-style2 btn-style-border ">
                   Our Tutors
                 </button>
               </div>
@@ -35,21 +65,27 @@ const Header = () => {
                     Student Name
                   </label>
                   <input
-                    type="email"
+                    type="text"
                     class="form-control"
-                    id="inputEmail"
+                    name="name"
+                    id="name"
                     placeholder="Enter your name here"
+                    value={user.name}
+                    onChange={handleChange}
                   />
                 </div>
                 <div class="col-12 form-rows">
                   <label for="inputFName" class="form-label">
-                    Father/Mother Name
+                    Email
                   </label>
                   <input
-                    type="text"
+                    type="email"
                     class="form-control"
-                    id="inputPassword4"
-                    placeholder="Enter your father/mother name here"
+                    name="email"
+                    id="email"
+                    placeholder="Enter email here"
+                    value={user.email}
+                    onChange={handleChange}
                   />
                 </div>
                 <div class="col-12 form-rows">
@@ -59,8 +95,11 @@ const Header = () => {
                   <input
                     type="text"
                     class="form-control"
-                    id="inputAddress"
+                    name="phone"
+                    id="phone"
                     placeholder="Please enter number with country code"
+                    value={user.phone}
+                    onChange={handleChange}
                   />
                 </div>
 
@@ -68,7 +107,13 @@ const Header = () => {
                   <label for="inputState" class="form-label">
                     Course
                   </label>
-                  <select id="inputState" class="form-select">
+                  <select
+                    name="course"
+                    id="course"
+                    class="form-select"
+                    value={user.course}
+                    onChange={handleChange}
+                  >
                     <option selected>Select Course</option>
                     <option>Basic Qaida</option>
                     <option>Quran with Tajweed</option>
@@ -85,30 +130,24 @@ const Header = () => {
                   <input
                     type="text"
                     class="form-control"
-                    id="inputCity"
+                    name="country"
+                    id="country"
                     placeholder="Entry your country name"
+                    value={user.country}
+                    onChange={handleChange}
                   />
                 </div>
 
                 <div class="col-12 form-rows">
-                  <button type="submit" class="btn-style3 btn-style-border">
+                  <button
+                    type="submit"
+                    class="btn-style3 btn-style-border"
+                    onClick={Signup}
+                  >
                     Get Trial
                   </button>
                 </div>
               </form>
-              {/* <img
-                src="./images/hero1.png"
-                alt="heroimg"
-                className="img-fluid"
-              />
-              <div className="two-btn">
-                <button type="button" className="btn btn-primary btn-lg p-2 ">
-                  Get Free Trial
-                </button>
-                <button type="button" className="btn btn-secondary btn-lg p-2">
-                  Sign Up as Tutor
-                </button>
-              </div>*/}
             </div>
           </div>
         </section>

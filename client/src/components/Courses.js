@@ -6,7 +6,7 @@ const Courses = () => {
   const [serviceData] = useState(coursesApi);
   return (
     <>
-      <section className="service-section">
+      <section className="courses-section">
         <div className="container service-container justify-content-center">
           <h1 className="main-heading text-center fw-bold">Our Courses</h1>
           <div className="row">
@@ -15,7 +15,7 @@ const Courses = () => {
               return (
                 <>
                   <div
-                    className="col-11 col-lg-4 col-xxl-4 work-container-subdiv"
+                    className="col-11 col-lg-4 col-xxl-4 courses-container-subdiv"
                     key={id}
                   >
                     <i className={`fontawesome-style ${logo}`}></i>

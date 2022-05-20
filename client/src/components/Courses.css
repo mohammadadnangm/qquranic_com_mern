@@ -1,7 +1,6 @@
 
-.service-section {
-  margin-top: 5rem;
-  /*  padding-bottom: 5rem; */
+.courses-section {
+  margin-top: 10rem;
 }
 .service-container {
   width: 90%;
@@ -11,24 +10,24 @@
   margin: 3rem 0;
 }
 
-.work-container-subdiv {
+.courses-container-subdiv {
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
 }
 
-.work-container-subdiv:hover {
+.courses-container-subdiv:hover {
   background-color: var(--bgcolor);
   cursor: pointer;
 }
 
-.work-container-subdiv:hover > .fontawesome-style {
+.courses-container-subdiv:hover > .fontawesome-style {
   background-color: #fff;
 }
 
-.work-container-subdiv .main-hero-para {
+.courses-container-subdiv .main-hero-para {
   width: 100%;
 }
 
-.service-section .work-container-subdiv .fontawesome-style {
+.service-section .courses-container-subdiv .fontawesome-style {
   text-align: left;
   margin: 2rem 0;
 }

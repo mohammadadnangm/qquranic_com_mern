@@ -8,16 +8,16 @@ function Numbers() {
         <div className="container numbers-container">
           <div className="row">
             <div className="col-4 col-lg-4 d-flex justify-content-around flex-column align-items-center p-5">
-              <h2>1212</h2>
-              <p>Registered Tutors</p>
+              <h2 className="number-title">1212</h2>
+              <p className="number-heading">Registered Tutors</p>
             </div>
             <div className="col-4 col-lg-4 d-flex justify-content-around flex-column align-items-center p-5">
-              <h2>125</h2>
-              <p>Quran Tutors Available</p>
+              <h2 className="number-title">125</h2>
+              <p className="number-heading">Quran Tutors Available</p>
             </div>
             <div className="col-4 col-lg-4 d-flex justify-content-around flex-column align-items-center p-5">
-              <h2>132453</h2>
-              <p>Session Completed</p>
+              <h2 className="number-title">133</h2>
+              <p className="number-heading">Session Completed</p>
             </div>
           </div>
         </div>
