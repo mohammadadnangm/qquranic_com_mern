@@ -1,6 +1,8 @@
 
 .header-section{
   margin-bottom: 0px;
+  /* background-color: linear-gradient(to left,#42275a, #734b6d);
+  background-image: url("../assets/bgimage.jpeg"); */
 }
 
 .header-container {
@@ -60,8 +62,12 @@
 
 .form-rows,
 .form-label,
-.form-control{
-background-color: white;
+.form-control,
+.form-select{
+background-color: var(--bgcolor);
+}
+.bg-body{
+  background-color: var(--bgcolor);
 }
 .form-label{
   font-size: 16px;

@@ -25,7 +25,7 @@
 }
 
 .work-container-subdiv:hover > .fontawesome-style {
-  background-color: #fff;
+  background-color: var(--fancy-color);
 }
 
 .work-container-subdiv .main-hero-para {
@@ -57,7 +57,7 @@
 .work-container .main-heading {
   font-size: 3rem;
   font-weight: bolder;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   word-spacing: 1rem;
 }
 .work-container .sub-heading {

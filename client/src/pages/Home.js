@@ -21,9 +21,9 @@ const Home = () => {
 
       <Numbers />
       <Courses />
-
-      <UseApp />
       <WhyUs />
+      <UseApp />
+
       {/* <Testimonials /> */}
       <Footer />
     </>

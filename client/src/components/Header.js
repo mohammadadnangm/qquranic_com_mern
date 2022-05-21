@@ -59,7 +59,7 @@ const Header = () => {
 
             {/*  --------------- header right side--------------  */}
             <div className="col-12 col-lg-6 header-right-side ">
-              <form class="row g-3 form-row shadow p-3 mb-5 bg-body rounded">
+              <form class="row g-3 form-row shadow p-3 mb-5  rounded">
                 <div class="col-12 form-rows">
                   <label for="inputName" class="form-label">
                     Student Name

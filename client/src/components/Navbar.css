@@ -16,9 +16,13 @@
 .navbar-brand {
   font-size: 2.5rem;
 }
+/* .navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 .navbar li {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .navbar li a {

@@ -51,7 +51,9 @@ const Contact = () => {
         className="p-5 text-center bg-image"
         style={{
           backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+            // "src("./assets/bgimage")",
+            "url('../assets/bgimage.jpeg')",
+          // "url('https://mdbootstrap.com/img/new/slides/041.webp')",
           height: 400,
         }}
       >

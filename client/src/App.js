@@ -14,6 +14,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ToS from "./pages/ToS";
 import Testimonials from "./pages/Testimonials";
 import FaQ from "./pages/FaQ";
+import WhyUS from "./pages/WhyUs";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import Logout from "./components/Logout";
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/privacypolicy" component={PrivacyPolicy}></Route>
           <Route path="/tos" component={ToS}></Route>
           <Route path="/testimonials" component={Testimonials}></Route>
+          <Route path="/whyus" component={WhyUS}></Route>
           <Route path="/faqs" component={FaQ}></Route>
           <Route path="/signin" component={Signin}></Route>
           <Route path="/signup" component={Signup}></Route>
