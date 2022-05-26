@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./UseApp.css";
 import useAppApi from "../API/useAppApi.js";
+import { NavLink } from "react-router-dom";
 
 const UseApp = () => {
   const [aboutData] = useState(useAppApi);
@@ -8,8 +9,8 @@ const UseApp = () => {
     <>
       <section className="useapp-section">
         <div className="container mb-5 useapp-container">
-          <div className="row">
-            <div className="col-12 col-lg-5 text-center useapp-section-leftside-img">
+          <div className="row ">
+            <div className="col-12 col-lg-5 text-center float-start useapp-section-leftside-img">
               <img src="./images/appimg.jpeg" alt="aboutusIMg" />
             </div>
 
@@ -40,7 +41,9 @@ const UseApp = () => {
 
               <br />
               <button className="btn-style btn-style-border useapp-button">
-                Download App
+                <NavLink className="ft-nav-btn" to="/whyus">
+                  Download App
+                </NavLink>
               </button>
             </div>
           </div>

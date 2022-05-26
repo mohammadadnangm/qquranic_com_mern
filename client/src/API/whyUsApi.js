@@ -2,22 +2,26 @@ const whyUsApi = [
   {
     id: 1,
     title: "Simple",
-    info: "Simple as yet as possible.",
+    info:
+      "Simple as yet as possible. We have a simple process to start learning Quran with our tutors",
   },
   {
     id: 2,
-    title: "One Platform",
-    info: "Now you can Teach and Learn on One Platform which is Quran Tutor, no need of zoom and Skype",
+    title: "Reliable",
+    info:
+      "Reliablity is our first concern. You can choose your desired gender tutor. Also the time and days is your choice.",
   },
   {
     id: 3,
-    title: "Secure",
-    info: "We provide secure invironment for both students and teachers to use our app.",
+    title: "Web & Mobile App",
+    info:
+      "Now you can Learn and Read Quran & Qaida on one and only platform by using Q Quranic Website & Mobile App.",
   },
   {
     id: 4,
-    title: "Reliable",
-    info: "Reliablity is our first concern.",
+    title: "Secure",
+    info:
+      "We provide secure invironment for both students and teachers to use our Website and Mobile App.",
   },
 ];
 

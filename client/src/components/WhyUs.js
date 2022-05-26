@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./WhyUs.css";
 import whyUsApi from "../API/whyUsApi.js";
+import { NavLink } from "react-router-dom";
 
 const WhyUs = () => {
   const [aboutData] = useState(whyUsApi);
@@ -12,10 +13,11 @@ const WhyUs = () => {
             {/* 1section leftt side data  */}
             <div className="col-12 col-lg-7 d-flex justify-content-center align-items-start flex-column  whyus-section-lefttside">
               <h3 className="title">Why Choose Us?</h3>
-              <h1 className="heading">
-                World class Services <br /> Simple, Reliable, Secure
-              </h1>
-
+              <h1 className="heading">Simple, Reliable, Secure</h1>
+              <p>
+                There are number of reasons to choose Q Quranic for learning and
+                reading Quran & Qaida.
+              </p>
               {aboutData.map((curElem) => {
                 const { id, title, info } = curElem;
                 return (
@@ -23,7 +25,7 @@ const WhyUs = () => {
                     <div className="row info" key={id}>
                       <div className="col-1 number">{id}</div>
                       <div className="col-10 data">
-                        <h2>{title}</h2>
+                        <h2 className="data-title">{title}</h2>
                         <p className="para">{info}</p>
                       </div>
                     </div>
@@ -33,12 +35,14 @@ const WhyUs = () => {
 
               <br />
               <button className="btn-style btn-style-border whyus-section-button">
-                learn more
+                <NavLink className="ft-nav-btn" to="/whyus">
+                  Learn more
+                </NavLink>
               </button>
             </div>
 
             {/* images section  */}
-            <div className="col-12 col-lg-5  text-center whyus-section-rightside-img">
+            <div className="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column  text-center whyus-section-rightside-img">
               <img
                 src="./images/callcenter.jpg"
                 alt="WhyUsImg"

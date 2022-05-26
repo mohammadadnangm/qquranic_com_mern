@@ -9,11 +9,11 @@ const Navbar = () => {
   const RenderMenu = () => {
     return (
       <>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink className="nav-link active" aria-current="page" to="/">
             Home
           </NavLink>
-        </li>
+        </li> */}
         <li className="nav-item">
           <NavLink className="nav-link" to="/findtutors">
             Tutors
@@ -92,9 +92,9 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container d-flex justify-content-between ">
             <div>
-              <a className="navbar-brand" href="/">
+              <NavLink className="nav-link navbar-brand" to="/">
                 Q Quranic
-              </a>
+              </NavLink>
             </div>
             <div>
               <button
