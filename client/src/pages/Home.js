@@ -18,7 +18,6 @@ const Home = () => {
       <Header />
       <AboutUs />
       <HowItWorks />
-
       <Numbers />
       <Courses />
       <WhyUs />

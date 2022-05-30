@@ -2,11 +2,30 @@ import React from "react";
 import "./ToS.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import headerbg from "../assets/headerbg.webp";
 
 const ToS = () => {
   return (
     <>
       <Navbar />
+      {/* page header start */}
+      <div
+        className="p-5 text-center bg-image"
+        style={{
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
+          height: 400,
+        }}
+      >
+        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+          <div className="page-header-text">
+            <h1 className="mb-3 page-header-text">Fee & Plans</h1>
+          </div>
+        </div>
+      </div>
+      {/* page header end */}
+
       <h1 className="HeaderName">Tos</h1>
       <section className="common-section our-services our-services-rightside">
         <div className="container mb-5">

@@ -2,6 +2,7 @@ import React from "react";
 import "./PageHeader.css";
 import "./QaidaReading.css";
 import Navbar from "../components/Navbar";
+import headerbg from "../assets/headerbg.webp";
 import Footer from "../components/Footer";
 
 const Qaida = () => {
@@ -13,8 +14,9 @@ const Qaida = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >

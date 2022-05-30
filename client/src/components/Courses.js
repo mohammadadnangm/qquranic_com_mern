@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Courses.css";
 import coursesApi from "../API/coursesApi.js";
+import { NavLink } from "react-router-dom";
 
 const Courses = () => {
   const [serviceData] = useState(coursesApi);
@@ -28,6 +29,16 @@ const Courses = () => {
                 </>
               );
             })}
+          </div>
+          <div className="text-center col-3 mt-5 courses-button">
+            <button className="btn" type="button">
+              <NavLink
+                className="btn-howitworks p-3 btn-howitworks-border"
+                to="/courses"
+              >
+                All Courses
+              </NavLink>
+            </button>
           </div>
         </div>
       </section>

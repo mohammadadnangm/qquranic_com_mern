@@ -3,6 +3,7 @@ import "./FaQs.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import headerbg from "../assets/headerbg.webp";
 
 const FaQ = () => {
   return (
@@ -13,8 +14,9 @@ const FaQ = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >

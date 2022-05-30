@@ -3,6 +3,7 @@ import "./WhyUs.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import whyUsApi from "../API/whyUsApi.js";
+import headerbg from "../assets/headerbg.webp";
 
 const WhyUs = () => {
   const [aboutData] = useState(whyUsApi);
@@ -14,8 +15,9 @@ const WhyUs = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >

@@ -60,7 +60,7 @@ const Navbar = () => {
           </NavLink>
         </li>
 
-        <li class="nav-item">
+        <li className="nav-item">
           <form className="d-flex">
             <button
               className="btn  btn-style"

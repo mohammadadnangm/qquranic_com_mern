@@ -3,6 +3,7 @@ import "./HowItWorks.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import howItWorkApi from "../API/howItWorkApi.js";
+import headerbg from "../assets/headerbg.webp";
 
 const HowItWorks = () => {
   const [workData] = useState(howItWorkApi);
@@ -15,8 +16,9 @@ const HowItWorks = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >
@@ -38,9 +40,11 @@ const HowItWorks = () => {
               return (
                 <>
                   <div className="col-12 col-lg-4 text-center work-containerp-subdiv">
-                    <i className={`fontawesome-style ${logo}`}></i>
-                    <h2 className="sub-heading">{title}</h2>
-                    <p className="main-hero-para w-100">{info}</p>
+                    <div className="card">
+                      <i className={`fontawesome-style ${logo}`}></i>
+                      <h2 className="sub-heading">{title}</h2>
+                      <p className="main-hero-para w-100">{info}</p>
+                    </div>
                   </div>
                 </>
               );

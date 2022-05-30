@@ -34,8 +34,8 @@ const WhyUs = () => {
               })}
 
               <br />
-              <button className="btn-style btn-style-border whyus-section-button">
-                <NavLink className="ft-nav-btn" to="/whyus">
+              <button className="btn whyus-section-button">
+                <NavLink className="btn-whyus p-3 btn-whyus-border" to="/whyus">
                   Learn more
                 </NavLink>
               </button>

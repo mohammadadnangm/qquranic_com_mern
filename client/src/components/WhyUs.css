@@ -8,6 +8,20 @@
 .whyus-container {
   width: 90%;
 }
+.btn-whyus{
+  font-size: 1.6rem;
+}
+.btn-whyus-border{
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 3rem;
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+.btn-whyus-border:hover{
+  color: #fff;
+  background-color: var(--primary-color);
+}
 
 .whyus-section .title {
   text-transform: uppercase;

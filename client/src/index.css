@@ -17,8 +17,12 @@ html {
 :root {
   --bgcolor: #f1f5fb;
   --primary-color: #064909;
-  --text-color: #000000;
+  --text-color: #545454;
   --fancy-color: #f48209;
+}
+
+.container{
+  width: 90%;
 }
 
 html {

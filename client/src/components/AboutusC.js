@@ -30,10 +30,10 @@ const AboutusC = () => {
                 and begin your journey towards success.
               </p>
 
-              <br />
+              {/* <br />
               <button className="btn-style btn-style-border aboutus-section-button">
                 About Us
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

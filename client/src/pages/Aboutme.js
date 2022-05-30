@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import AboutmeC from "../components/AboutmeC";
 import Footer from "../components/Footer";
+import headerbg from "../assets/headerbg.webp";
 
 const Aboutme = () => {
   return (
@@ -12,8 +13,9 @@ const Aboutme = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >

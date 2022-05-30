@@ -4,6 +4,7 @@ import "./Error404.css";
 import Error404 from "../components/Error404";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import headerbg from "../assets/headerbg.webp";
 
 const Error = () => {
   return (
@@ -14,8 +15,9 @@ const Error = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >

@@ -4,6 +4,7 @@ import "./QuranReading.css";
 import Navbar from "../components/Navbar";
 import QuranReading from "../components/QuranReading";
 import Footer from "../components/Footer";
+import headerbg from "../assets/headerbg.webp";
 
 const Quran = () => {
   return (
@@ -14,8 +15,9 @@ const Quran = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >

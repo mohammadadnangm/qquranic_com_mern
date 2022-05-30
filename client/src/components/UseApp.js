@@ -40,8 +40,11 @@ const UseApp = () => {
               })}
 
               <br />
-              <button className="btn-style btn-style-border useapp-button">
-                <NavLink className="ft-nav-btn" to="/whyus">
+              <button className="btn useapp-button">
+                <NavLink
+                  className="btn-useapp p-3 btn-useapp-border"
+                  to="/useapp"
+                >
                   Download App
                 </NavLink>
               </button>

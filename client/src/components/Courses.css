@@ -50,6 +50,27 @@ color: var(--fancy-color);}
   margin: 2rem 0;
   color: var(--fancy-color);
 }
+.course-container .col-3{
+  width: 100%;
+}
+
+.courses-button .btn-howitworks{
+  color: var(--primary-color);
+  background-color: transparent;
+  font-size: 1.6rem;
+}
+
+.courses-button .btn-howitworks-border{
+  border-radius: 0rem;
+  border: 0.1rem solid var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(102, 20, 7, 0.5);
+}
+
+.courses-button .btn-howitworks:hover {
+  color: #fff;
+  border: 0.1rem solid var(--primary-color);
+  background-color: var(--primary-color);
+}
 
 @media (min-width: 1400px) {
   .service-container .col-xxl-4 {

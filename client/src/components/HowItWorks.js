@@ -26,9 +26,12 @@ const HowItWorks = () => {
               );
             })}
           </div>
-          <div className="text-center col-3 mx-auto find-tutor-button">
-            <button className="btn-stylesd" type="button">
-              <NavLink className="ft-nav-btn" to="/findtutors">
+          <div className="text-center col-3 mt-5 howitwork-button">
+            <button className="btn" type="button">
+              <NavLink
+                className="btn-howitworks p-3 btn-howitworks-border"
+                to="/findtutors"
+              >
                 Find Tutors
               </NavLink>
             </button>

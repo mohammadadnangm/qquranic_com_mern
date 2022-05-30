@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import "./SignupC.css";
 import axios from "axios";
 import Navbar from "../components/Navbar";
-// import SignupC from "../components/SignupC";
+import headerbg from "../assets/headerbg.webp";
 import Footer from "../components/Footer";
 
 const Signup = () => {
@@ -46,8 +46,9 @@ const Signup = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >

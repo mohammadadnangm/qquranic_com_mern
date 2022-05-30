@@ -3,7 +3,7 @@ import "./PageHeader.css";
 import "./Courses.css";
 import coursesApi from "../API/coursesApi";
 import Navbar from "../components/Navbar";
-// import Courses from "../components/Courses";
+import headerbg from "../assets/headerbg.webp";
 import Footer from "../components/Footer";
 
 const Course = () => {
@@ -16,8 +16,9 @@ const Course = () => {
       <div
         className="p-5 text-center bg-image"
         style={{
-          backgroundImage:
-            "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          // backgroundImage:
+          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+          backgroundImage: `url(${headerbg})`,
           height: 400,
         }}
       >
