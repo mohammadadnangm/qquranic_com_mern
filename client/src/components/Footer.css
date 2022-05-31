@@ -10,19 +10,6 @@ footer {
   background-color: var(--bgcolor);
   color: #fff;
 }
-/* .coloumn-1{
-  width: 40%;
-  
-}
-.coloumn-2{
-  width: 20%;
-}
-.coloumn-3{
-  width: 20%;
-}
-.coloumn-4{
-  width: 20%;
-} */
 
 .footer-logo{
   width: 100%;
@@ -87,9 +74,9 @@ footer .fontawesome-style {
 }
 
 footer .fontawesome-style:hover {
-  transition: all 1s;
-  animation: rotatefont 1s linear infinite alternate-reverse;
-  color: #fff;
+  /* transition: all 1s; */
+  /* animation: rotatefont 1s linear infinite alternate-reverse; */
+  color: var(--fancy-color);
 }
 
 @keyframes rotatefont {
@@ -104,7 +91,6 @@ footer .fontawesome-style:hover {
 footer .main-hero-para {
   margin: 0;
 }
-/* @media (min-width: 992px) */
 .col-lg-10{
 width: 90%;
 }

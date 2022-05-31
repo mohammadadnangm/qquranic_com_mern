@@ -6,7 +6,6 @@
 }
 
 .header-container {
-  width: 90%;
   background-color: var(--primary-color);
 }
 
@@ -37,6 +36,37 @@
   margin-inline-start: 1rem;
   border-radius: 5px;
 }
+.btn-style2{
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+.btn-style2:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+.btn-style3{
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+.btn-style3:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
 
 /* right side of hero section  */
 
@@ -77,36 +107,5 @@ background-color: var(--bgcolor);
 }
 .form-select{
   line-height: 3.1;
-}
-
-.btn-style2{
-  width: 12rem;
-  height: 4rem;
-  border-radius: 2rem;
-  color: #fff;
-  background-color: var(--primary-color);
-  text-transform: capitalize;
-  font-size: 1.6rem;
-}
-.btn-style2:hover {
-  border: 0.1rem solid var(--primary-color);
-  background-color: transparent;
-  color: var(--primary-color);
-  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
-}
-.btn-style3{
-  width: 12rem;
-  height: 4rem;
-  border-radius: 2rem;
-  color: #fff;
-  background-color: var(--primary-color);
-  text-transform: capitalize;
-  font-size: 1.6rem;
-}
-.btn-style3:hover {
-  border: 0.1rem solid var(--primary-color);
-  background-color: transparent;
-  color: var(--primary-color);
-  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
 }
 

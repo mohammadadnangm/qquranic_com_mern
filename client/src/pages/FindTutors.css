@@ -36,6 +36,12 @@
     color: var(--text-color);
     font-size: 15px;
   }
+  .findtutor-section-1 img {
+    width: 100%;
+    height: 300px;
+  }
+
+  
   .findtutor-button .btn-findtutor{
     color: var(--primary-color);
     background-color: transparent;
@@ -54,14 +60,17 @@
     background-color: var(--primary-color);
   }
   
-  .findtutor-section-1 img {
-    width: 100%;
-    height: 300px;
-  }
 
-  /* 2nd section of about us  */
   .findtutor-section-2{
       margin-top: 8rem;
+  }
+  .findtutor-section-2 .main-heading {
+    margin: 3rem 0;
+  }
+  .findtutor-section-2 .sub-heading {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    color: var(--fancy-color);
   }
   
 .CardsMainDiv{

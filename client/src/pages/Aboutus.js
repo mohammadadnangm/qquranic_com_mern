@@ -2,8 +2,11 @@ import React from "react";
 import "./PageHeader.css";
 import "./Aboutus.css";
 import Navbar from "../components/Navbar";
+import { NavLink } from "react-router-dom";
 import Footer from "../components/Footer";
 import headerbg from "../assets/headerbg.webp";
+import Numbers from "../components/Numbers";
+import UseAppC from "../components/UseAppC";
 
 const Aboutus = () => {
   return (
@@ -28,18 +31,9 @@ const Aboutus = () => {
       </div>
       {/* page header end */}
 
-      <section className="aboutus-section">
+      <section className="aboutus-section-1">
         <div className="container mb-5 aboutus-container">
           <div className="row">
-            {/* images section  left side*/}
-            <div className="col-12 col-lg-5 text-center  aboutus-section-rightside-img">
-              <img
-                src="./images/aboutsection.png"
-                alt="aboutusImg"
-                className="about-img"
-              />
-            </div>
-
             {/* 1section right side data  */}
             <div className="col-12 col-lg-7 d-flex justify-content-center align-items-start flex-column aboutus-section-lefttside">
               <h1 className="title">About Quran Tutor</h1>
@@ -55,14 +49,41 @@ const Aboutus = () => {
               </p>
 
               <br />
-              {/* <button className="btn-style btn-style-border aboutus-section-button">
-                About Us
-              </button> */}
+
+              <div className="button-row">
+                <button className="btn ">
+                  <NavLink
+                    className="btn-style1 p-3 btn-howitworks-border"
+                    to="/contact"
+                  >
+                    Contact Us
+                  </NavLink>
+                </button>
+                <button className="btn ">
+                  <NavLink
+                    className="btn-style2 p-3 btn-howitworks-border"
+                    to="/signup"
+                  >
+                    Get Trial
+                  </NavLink>
+                </button>
+              </div>
+            </div>
+
+            {/* images section  right-side*/}
+            <div className="col-12 col-lg-5 text-center  rightside-img">
+              <img
+                src="./images/aboutsection.png"
+                alt="aboutusImg"
+                className="about-img"
+              />
             </div>
           </div>
         </div>
       </section>
 
+      <Numbers />
+      <UseAppC />
       <Footer />
     </>
   );

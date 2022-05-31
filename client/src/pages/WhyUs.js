@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./WhyUs.css";
 import Navbar from "../components/Navbar";
+import Numbers from "../components/Numbers";
 import Footer from "../components/Footer";
 import whyUsApi from "../API/whyUsApi.js";
 import headerbg from "../assets/headerbg.webp";
@@ -71,6 +72,7 @@ const WhyUs = () => {
           </div>
         </div>
       </section>
+      <Numbers />
       <Footer />
     </>
   );

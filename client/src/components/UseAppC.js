@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./UseApp.css";
+import "./UseAppC.css";
 import useAppApi from "../API/useAppApi.js";
 import { NavLink } from "react-router-dom";
 
-const UseApp = () => {
+const UseAppC = () => {
   const [aboutData] = useState(useAppApi);
   return (
     <>
@@ -56,4 +56,4 @@ const UseApp = () => {
   );
 };
 
-export default UseApp;
+export default UseAppC;

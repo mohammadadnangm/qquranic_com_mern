@@ -6,7 +6,7 @@ import HowItWorks from "../components/HowItWorks";
 import Numbers from "../components/Numbers";
 import Courses from "../components/Courses";
 import AboutUs from "../components/AboutusC";
-import UseApp from "../components/UseApp";
+import UseAppC from "../components/UseAppC";
 import WhyUs from "../components/WhyUs";
 import Footer from "../components/Footer";
 //import Testimonials from "./Testimonials";
@@ -21,7 +21,7 @@ const Home = () => {
       <Numbers />
       <Courses />
       <WhyUs />
-      <UseApp />
+      <UseAppC />
 
       {/* <Testimonials /> */}
       <Footer />

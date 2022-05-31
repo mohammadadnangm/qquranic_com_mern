@@ -72,6 +72,12 @@ const FindTutor = () => {
 
       <section className="findtutor-section-2">
         <div className="container">
+          <h1 className="main-heading text-center fw-bold">
+            Professional Tutors In A List
+          </h1>
+          <h3 className="sub-heading text-center">
+            To choose any tutor, contact us to start with choosen tutor.
+          </h3>
           <div className="CardsMainDiv">
             <div className="card">
               <img

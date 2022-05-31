@@ -40,7 +40,7 @@ const Footer = () => {
                       <a href="/faqs">FAQs</a>
                     </li>
                     <li>
-                      <a href="/pricingplan">Prices and Plans</a>
+                      <a href="/priceplan">Prices and Plans</a>
                     </li>
 
                     <li>
@@ -58,14 +58,14 @@ const Footer = () => {
                     <li>
                       <a href="/findtutors">Find Tutors</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="/testimonials">Testimonials</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="/howitworks">How It Works?</a>
                     </li>
                     <li>
-                      <a href="/howitworks">How to use App?</a>
+                      <a href="/useapp">How to use App?</a>
                     </li>
                     {/* <li>
                       <a href="/quran">Read Quran</a>
@@ -114,8 +114,8 @@ const Footer = () => {
               <div className="mt-5 d-flex copyright-row">
                 <div className=" flex-start">
                   <p className="copyright-text ">
-                    Copyright @ {new Date().getFullYear()} Quran Tutor. All
-                    rights reserved.
+                    Copyright @ {new Date().getFullYear()} Q Quranic. All rights
+                    reserved.
                   </p>
                 </div>
                 <div className=" flex-end">

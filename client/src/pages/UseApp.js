@@ -1,14 +1,10 @@
 import React, { useState } from "react";
-import "./HowItWorks.css";
+import "./UseApp.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import howItWorkApi from "../API/howItWorkApi.js";
 import headerbg from "../assets/headerbg.webp";
-import HowItWorksC from "../components/HowItWorks";
-
-const HowItWorks = () => {
-  const [workData] = useState(howItWorkApi);
-  console.log(workData);
+import UseAppC from "../components/UseAppC";
+const UseApp = () => {
   return (
     <>
       <Navbar />
@@ -25,17 +21,16 @@ const HowItWorks = () => {
       >
         <div className="d-flex page-header-title justify-content-center align-items-center h-100">
           <div className="page-header-text">
-            <h1 className="mb-3 page-header-text">How It Works</h1>
+            <h1 className="mb-3 page-header-text">Why Choose Q Quranic</h1>
           </div>
         </div>
       </div>
       {/* page header end */}
 
-      <HowItWorksC />
-
+      <UseAppC />
       <Footer />
     </>
   );
 };
 
-export default HowItWorks;
+export default UseApp;

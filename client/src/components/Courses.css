@@ -2,9 +2,7 @@
 .courses-section {
   margin-top: 10rem;
 }
-.course-container {
-  width: 90%;
-}
+
 .course-container .main-heading {
   margin-bottom: 3rem;
 }
@@ -72,18 +70,3 @@ color: var(--fancy-color);}
   background-color: var(--primary-color);
 }
 
-@media (min-width: 1400px) {
-  .service-container .col-xxl-4 {
-    flex: 0 0 auto;
-    width: 30% !important;
-    margin: auto;
-  }
-}
-
-@media (min-width: 992px) {
-  .service-container .col-lg-4 {
-    flex: 0 0 auto;
-    width: 30% !important;
-    margin: 2.5rem auto;
-  }
-}

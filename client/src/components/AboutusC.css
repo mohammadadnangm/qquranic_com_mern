@@ -3,10 +3,10 @@
 }
 
 .aboutus-section .title {
-  color: aliceblue;
+  color: var(--primary-color);
 }
 .aboutus-section .heading {
-  color: aliceblue;
+  color: var(--fancy-color);
 }
 
 .aboutus-section .description {
@@ -14,7 +14,6 @@
   font-size: 15px;
 }
 
-/* 2nd section of about us  */
 .aboutus-section-rightside-img {
   text-align: center;
   justify-content: center;
