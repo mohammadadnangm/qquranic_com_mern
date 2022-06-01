@@ -4,41 +4,39 @@ import Navbar from "../components/Navbar";
 import Numbers from "../components/Numbers";
 import Footer from "../components/Footer";
 import whyUsApi from "../API/whyUsApi.js";
-import headerbg from "../assets/headerbg.webp";
-
+import headerbg from "../assets/bg-1.jpeg";
 const WhyUs = () => {
   const [aboutData] = useState(whyUsApi);
   return (
     <>
       <Navbar />
-
-      {/* page header start */}
-      <div
-        className="p-5 text-center bg-image"
-        style={{
-          // backgroundImage:
-          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
-          backgroundImage: `url(${headerbg})`,
-          height: 400,
-        }}
-      >
-        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
-          <div className="page-header-text">
-            <h1 className="mb-3 page-header-text">Why Choose Q Quranic</h1>
+      {/* page header start */}{" "}
+      <div className="bgdiv">
+        <div
+          className="p-5 text-center bg-image"
+          style={{
+            // backgroundImage:
+            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+            backgroundImage: `url(${headerbg})`,
+          }}
+        >
+          <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+            <div className="page-header-text">
+              <h1 className="mb-3 page-header-text">Why Us</h1>
+            </div>
           </div>
-        </div>
+        </div>{" "}
       </div>
       {/* page header end */}
-
-      <section className="whyus-section">
+      <section className="whyus-sectionp">
         <div className="container mb-5 whyus-container">
           <div className="row">
             {/* 1section leftt side data  */}
             <div className="col-12 col-lg-7 d-flex justify-content-center align-items-start flex-column  whyus-section-lefttside">
-              <h3 className="title">Why Choose Us?</h3>
-              <h1 className="heading">
+              <h1 className="title">Why Choose Q Quranic?</h1>
+              <h3 className="heading">
                 World class Services <br /> Simple, Reliable, Secure
-              </h1>
+              </h3>
 
               {aboutData.map((curElem) => {
                 const { id, title, info } = curElem;

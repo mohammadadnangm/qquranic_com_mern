@@ -1,6 +1,7 @@
 
 .whyus-section {
-  background-color: var(--bgcolor);
+  /* background-color: var(--bgcolor); */
+  /* background: linear-gradient(to right,#ffffff, #f1f5f1); */
   margin-top: 10rem;
   padding-bottom: 2rem;
 }

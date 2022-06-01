@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../assets/footer-logo.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
 
         <div className="container">
           <div className="row3">
-            <div className="col-12 col-lg-10 mx-auto">
+            <div className="col-12 col-lg-12 mx-auto">
               <div className="row">
                 <div className="col-12 col-lg-3 coloumn-1 d-grid">
                   {/* <h2 className="footer-title">Q Quranic</h2> */}
@@ -31,23 +32,23 @@ const Footer = () => {
                   <h2>Company</h2>
                   <ul>
                     <li>
-                      <a href="/about">About Us</a>
+                      <NavLink to="/aboutus">About Us</NavLink>
                     </li>
                     <li>
-                      <a href="/contact">Contact Us</a>
+                      <NavLink to="/contact">Contact Us</NavLink>
                     </li>
                     <li>
-                      <a href="/faqs">FAQs</a>
+                      <NavLink to="/faqs">FAQs</NavLink>
                     </li>
                     <li>
-                      <a href="/priceplan">Prices and Plans</a>
+                      <NavLink to="/priceplan">Prices and Plans</NavLink>
                     </li>
 
                     <li>
-                      <a href="/privacypolicy">Privacy Policy</a>
+                      <NavLink to="/privacypolicy">Privacy Policy</NavLink>
                     </li>
                     <li>
-                      <a href="/tos">ToS</a>
+                      <NavLink to="/tos">ToS</NavLink>
                     </li>
                   </ul>
                 </div>
@@ -56,22 +57,22 @@ const Footer = () => {
                   <h2>Usefull Links</h2>
                   <ul>
                     <li>
-                      <a href="/findtutors">Find Tutors</a>
+                      <NavLink to="/findtutors">Find Tutors</NavLink>
                     </li>
                     {/* <li>
-                      <a href="/testimonials">Testimonials</a>
+                      <NavLink to="/testimonials">Testimonials</NavLink>
                     </li> */}
                     <li>
-                      <a href="/howitworks">How It Works?</a>
+                      <NavLink to="/howitworks">How It Works?</NavLink>
                     </li>
                     <li>
-                      <a href="/useapp">How to use App?</a>
+                      <NavLink to="/useapp">How to use App?</NavLink>
                     </li>
                     {/* <li>
-                      <a href="/quran">Read Quran</a>
+                      <NavLink to="/quran">Read Quran</NavLink>
                     </li> */}
                     <li>
-                      <a href="/qaida">Read Qaida</a>
+                      <NavLink to="/qaida">Read Qaida</NavLink>
                     </li>
                   </ul>
                 </div>
@@ -79,19 +80,30 @@ const Footer = () => {
                 <div className="col-12 col-lg-3 coloumn-4">
                   <h2>Follow Us</h2>
                   <div className="row">
-                    <div className="col-3 mx-auto">
-                      <i className="fab fa-facebook-f fontawesome-style"></i>
+                    <div className="col-2 mx-auto">
+                      <a href="https://web.facebook.com/qquranic">
+                        <i className="fab fa-facebook-f fontawesome-style"></i>
+                      </a>
                     </div>
-                    <div className="col-3 mx-auto">
-                      <a href="/">
+                    <div className="col-2 mx-auto">
+                      <a href="https://www.instagram.com/q__quranic/">
                         <i className="fab fa-instagram fontawesome-style"></i>
                       </a>
                     </div>
-                    <div className="col-3 mx-auto">
-                      <i className="fab fa-youtube fontawesome-style"></i>
+                    <div className="col-2 mx-auto">
+                      <a href="https://www.youtube.com/c/qquranic">
+                        <i className="fab fa-youtube fontawesome-style"></i>
+                      </a>
                     </div>
-                    <div className="col-3 mx-auto">
-                      <i className="fab fa-twitter fontawesome-style"></i>
+                    <div className="col-2 mx-auto">
+                      <a href="https://twitter.com/qquranic">
+                        <i className="fab fa-twitter fontawesome-style"></i>
+                      </a>
+                    </div>
+                    <div className="col-2 mx-auto">
+                      <a href="https://linkedin.com/qquranic">
+                        <i className="fab fa-linkedin fontawesome-style"></i>
+                      </a>
                     </div>
                   </div>
 

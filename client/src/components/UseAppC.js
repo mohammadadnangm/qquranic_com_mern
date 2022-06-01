@@ -10,7 +10,7 @@ const UseAppC = () => {
       <section className="useapp-section">
         <div className="container mb-5 useapp-container">
           <div className="row ">
-            <div className="col-12 col-lg-5 text-center float-start useapp-section-leftside-img">
+            <div className="col-12 col-lg-5 text-center useapp-section-leftside-img">
               <img src="./images/appimg.jpeg" alt="aboutusIMg" />
             </div>
 

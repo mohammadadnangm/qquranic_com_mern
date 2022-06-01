@@ -2,6 +2,12 @@
 .useapp-section {
   margin-top: 10rem;
 }
+@media (max-width: 992px){
+  .useapp-section {
+    margin-top: 0rem;
+  }
+}
+
 .useapp-container {
   width: 90%;
 }
@@ -13,10 +19,10 @@
 .useapp-section img {
   width: 100%;
   height: 500px;
+  margin: 0rem;
   margin-top: 5rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
   border-radius: 1.5rem;
-  margin: 0;
 }
 
 .useapp-section .mini-title {

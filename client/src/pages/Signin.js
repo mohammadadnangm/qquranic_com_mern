@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { useHistory } from "react-router-dom";
-import "./SinginC.css";
+// import "./SinginC.css";
 import axios from "axios";
 import { UserContext } from "../App";
 import Navbar from "../components/Navbar";

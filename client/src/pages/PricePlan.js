@@ -3,7 +3,7 @@ import "./PricePlan.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { NavLink } from "react-router-dom";
-import headerbg from "../assets/headerbg.webp";
+import headerbg from "../assets/bg-1.jpeg";
 
 const PricePlan = () => {
   return (
@@ -11,18 +11,19 @@ const PricePlan = () => {
       <Navbar />
 
       {/* page header start */}
-      <div
-        className="p-5 text-center bg-image"
-        style={{
-          // backgroundImage:
-          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
-          backgroundImage: `url(${headerbg})`,
-          height: 400,
-        }}
-      >
-        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
-          <div className="page-header-text">
-            <h1 className="mb-3 page-header-text">Fee & Plans</h1>
+      <div className="bgdiv">
+        <div
+          className="p-5 text-center bg-image"
+          style={{
+            // backgroundImage:
+            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+            backgroundImage: `url(${headerbg})`,
+          }}
+        >
+          <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+            <div className="page-header-text">
+              <h1 className="mb-3 page-header-text">Fee & Plans</h1>
+            </div>
           </div>
         </div>
       </div>

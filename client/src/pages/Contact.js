@@ -5,7 +5,7 @@ import axios from "axios";
 import { useHistory } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import headerbg from "../assets/headerbg.webp";
+import headerbg from "../assets/bg-1.jpeg";
 
 const Contact = () => {
   const history = useHistory();
@@ -48,18 +48,19 @@ const Contact = () => {
       <Navbar />
 
       {/* page header start */}
-      <div
-        className="p-5 text-center bg-image"
-        style={{
-          // backgroundImage:
-          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
-          backgroundImage: `url(${headerbg})`,
-          height: 400,
-        }}
-      >
-        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
-          <div className="page-header-text">
-            <h1 className="mb-3 page-header-text">Contact Us</h1>
+      <div className="bgdiv">
+        <div
+          className="p-5 text-center bg-image"
+          style={{
+            // backgroundImage:
+            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+            backgroundImage: `url(${headerbg})`,
+          }}
+        >
+          <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+            <div className="page-header-text">
+              <h1 className="mb-3 page-header-text">Contact Us</h1>
+            </div>
           </div>
         </div>
       </div>
@@ -68,12 +69,13 @@ const Contact = () => {
       <section className="contactus-section">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-lg-10 mx-auto">
+            <div className="col-12 col-lg-12 mx-auto">
               <div className="row">
                 <div className="contact-leftside col-12 col-lg-5">
                   <h1 className="main-heading fw-bold">
-                    Connect With Our <br /> Sales Team.
+                    Connect With Our <br />
                   </h1>
+                  <h3>Sales Team.</h3>
                   <p className="main-hero-para">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Deserunt eaque alias similique.

@@ -11,12 +11,13 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: #f1f5fb;
+  /* background-color: #f1f5fb; */
 }
+
 
 :root {
   --bgcolor: #f1f5fb;
-  --primary-color: #064909;
+  --primary-color: #0a8a10;
   --text-color: #545454;
   --fancy-color: #f48209;
 }
@@ -36,11 +37,14 @@ a {
 
 h1,
 h2,
-h3,
+
 h4,
 h5,
 h6 {
   color: #064909;
+}
+h3{
+  color: var(--fancy-color);
 }
 p{
   color: rgba(0,0,0,.9);

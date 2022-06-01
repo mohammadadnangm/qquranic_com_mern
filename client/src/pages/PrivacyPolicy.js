@@ -3,32 +3,31 @@ import "./PageHeader.css";
 import "./PrivacyPolicy.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import headerbg from "../assets/headerbg.webp";
+import headerbg from "../assets/bg-1.jpeg";
 import { NavLink } from "react-router-dom";
 
 const PrivacyP = () => {
   return (
     <>
       <Navbar />
-
-      {/* page header start */}
-      <div
-        className="p-5 text-center bg-image"
-        style={{
-          // backgroundImage:
-          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
-          backgroundImage: `url(${headerbg})`,
-          height: 400,
-        }}
-      >
-        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
-          <div className="page-header-text">
-            <h1 className="mb-3 page-header-text">Privacy Policy</h1>
+      {/* page header start */}{" "}
+      <div className="bgdiv">
+        <div
+          className="p-5 text-center bg-image"
+          style={{
+            // backgroundImage:
+            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+            backgroundImage: `url(${headerbg})`,
+          }}
+        >
+          <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+            <div className="page-header-text">
+              <h1 className="mb-3 page-header-text">Privacy Policy</h1>
+            </div>
           </div>
-        </div>
+        </div>{" "}
       </div>
       {/* page header end */}
-
       <section className="policy-section">
         <div className="container justify-content-center">
           <h1 className="main-heading text-center fw-bold">
@@ -258,7 +257,6 @@ const PrivacyP = () => {
           </p>
         </div>
       </section>
-
       <Footer />
     </>
   );

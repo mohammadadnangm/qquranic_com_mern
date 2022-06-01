@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutusC.css";
+import bgimage from "../assets/bgimage.jpeg";
 
 const AboutusC = () => {
   return (

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import "./SignupC.css";
+import "./Signup.css";
 import axios from "axios";
 import Navbar from "../components/Navbar";
-import headerbg from "../assets/headerbg.webp";
+import headerbg from "../assets/bg-1.jpeg";
 import Footer from "../components/Footer";
 
 const Signup = () => {
@@ -41,37 +41,40 @@ const Signup = () => {
   return (
     <>
       <Navbar />
-
-      {/* page header start */}
-      <div
-        className="p-5 text-center bg-image"
-        style={{
-          // backgroundImage:
-          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
-          backgroundImage: `url(${headerbg})`,
-          height: 400,
-        }}
-      >
-        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
-          <div className="page-header-text">
-            <h1 className="mb-3 page-header-text">Sign Up</h1>
+      {/* page header start */}{" "}
+      <div className="bgdiv">
+        <div
+          className="p-5 text-center bg-image"
+          style={{
+            // backgroundImage:
+            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+            backgroundImage: `url(${headerbg})`,
+            height: 400,
+          }}
+        >
+          <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+            <div className="page-header-text">
+              <h1 className="mb-3 page-header-text">Register</h1>
+            </div>
           </div>
-        </div>
+        </div>{" "}
       </div>
       {/* page header end */}
-
       <section className="signup-section">
         <div className="container signup-container">
           <div className="row">
-            <div className="col-12 col-lg-10 mx-auto">
+            <div className="col-12 col-lg-12 mx-auto">
               <div className="row">
                 <div className="signup-leftside col-12 col-lg-5">
                   <h1 className="main-heading fw-bold">
-                    New Here <br /> Sign Up.
+                    New Here <br />
                   </h1>
+                  <h3>Just Register To Get Started.</h3>
                   <p className="main-hero-para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Deserunt eaque alias similique.
+                    Fill the register form and click on register button to get
+                    registered with Q Quranic. After registration our team will
+                    contact you on the given WhatsApp Number or Email, try to
+                    respond our team accordingly.
                   </p>
                   <figure>
                     <img
@@ -86,6 +89,7 @@ const Signup = () => {
                 <div className="signup-rightside col-12 col-lg-7">
                   <form method="POST">
                     <div className="row">
+                      <h1>Registeration Form:</h1>
                       <div className="col-12 col-lg-6 signup-input-feild">
                         <input
                           type="text"
@@ -162,7 +166,7 @@ const Signup = () => {
                       className="btn btn-style w-100 mt-5"
                       onClick={Signup}
                     >
-                      Sign Up
+                      Register
                     </button>
                   </form>
                 </div>
@@ -171,7 +175,6 @@ const Signup = () => {
           </div>
         </div>
       </section>
-
       <Footer />
     </>
   );

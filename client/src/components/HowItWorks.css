@@ -1,6 +1,7 @@
 .howitworks-section{
-  margin-top: 8rem;
-  background-color: var(--bgcolor);
+  margin-top: 10rem;
+  background-color: white;
+  /* background: linear-gradient(to right,#ffffff, #f1f5f1); */
 }
 .howitworks-section .col-3{
   width: 100%;

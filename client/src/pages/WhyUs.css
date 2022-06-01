@@ -1,16 +1,9 @@
 
-.whyus-section {
-  /* background-color: var(--bgcolor); */
-  margin-top: 10rem;
-  padding-bottom: 2rem;
-  /* background-image: url("../assets/bgimage.jpeg"); */
+.whyus-sectionp {
+  margin-top: 2rem;
 }
 
-.whyus-container {
-  width: 90%;
-}
-
-.whyus-section img {
+.whyus-sectionp img {
   width: 100%;
   height: 500px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
@@ -19,7 +12,7 @@
   margin: 5rem 0;
 }
 
-.whyus-section .title {
+.whyus-sectionp .title {
   text-transform: uppercase;
   font-weight: bolder;
   margin: 3rem 0;
@@ -27,18 +20,18 @@
   font-size: 30px;
 }
 
-.whyus-section .heading {
+.whyus-sectionp .heading {
   font-weight: normal;
 }
 
-.whyus-section .info {
+.whyus-sectionp .info {
   margin-top: 1.5rem;
 }
-.whyus-section .para {
+.whyus-sectionp .para {
   font-size: 15px;
 }
 
-.whyus-section .number {
+.whyus-sectionp .number {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -50,14 +43,14 @@
   place-items: center;
 }
 
-.whyus-section .data {
+.whyus-sectionp .data {
   padding-left: 2rem;
 }
 
-.whyus-section .data p {
+.whyus-sectionp .data p {
   margin: 1rem 0;
 }
-.whyus-section .whyus-section-button {
+.whyus-sectionp .whyus-section-button {
   padding: 0rem;
   width: 12rem;
   height: 5rem;

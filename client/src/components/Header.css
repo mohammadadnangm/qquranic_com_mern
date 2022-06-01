@@ -1,12 +1,25 @@
+header{
+  height: 650px;
+  /* background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg'); */
+  background-color:  #ce2020;
+  background-image: url("../assets/bg-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .header-section{
-  margin-bottom: 0px;
-  /* background-color: linear-gradient(to left,#42275a, #734b6d);
-  background-image: url("../assets/bgimage.jpeg"); */
+  margin-top: -11rem;
+ 
 }
 
 .header-container {
-  background-color: var(--primary-color);
+  background-color: transparent;
+}
+.header-left-side{
+  margin-top: 7rem;
+}
+.header-right-side{
+  margin-top: 14rem;
 }
 
 .header-container h1 {
@@ -36,6 +49,11 @@
   margin-inline-start: 1rem;
   border-radius: 5px;
 }
+.btn-style1{
+  border-color: #fff;
+  color: var(--text-color);
+}
+
 .btn-style2{
   width: 12rem;
   height: 4rem;
@@ -73,10 +91,15 @@
 
 .form-row{
   line-height: 3rem;
+  float: right;
 }
+.header-section .rounded{
+  border-radius: 0.75rem!important;
+}
+
 @media (min-width: 992px){
   .form-row{
-    width: 80%;
+    width: 70%;
     margin-top: 12rem;
     margin-left: 100px;
     margin-right: 10px;
@@ -89,12 +112,12 @@
     margin-right: 0px;  
   }
 }
-
+.form-row,
 .form-rows,
 .form-label,
 .form-control,
 .form-select{
-background-color: var(--bgcolor);
+background-color: white;
 }
 .bg-body{
   background-color: var(--bgcolor);
@@ -103,9 +126,9 @@ background-color: var(--bgcolor);
   font-size: 16px;
 }
 .form-control{
-  line-height: 3.0;
+  line-height: 4.0;
 }
 .form-select{
-  line-height: 3.1;
+  line-height: 4.0;
 }
 

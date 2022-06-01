@@ -2,7 +2,7 @@ import React from "react";
 import "./PageHeader.css";
 import "./QaidaReading.css";
 import Navbar from "../components/Navbar";
-import headerbg from "../assets/headerbg.webp";
+import headerbg from "../assets/bg-1.jpeg";
 import Footer from "../components/Footer";
 
 const Qaida = () => {
@@ -11,18 +11,19 @@ const Qaida = () => {
       <Navbar />
 
       {/* page header start */}
-      <div
-        className="p-5 text-center bg-image"
-        style={{
-          // backgroundImage:
-          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
-          backgroundImage: `url(${headerbg})`,
-          height: 400,
-        }}
-      >
-        <div className="d-flex page-header-title justify-content-center align-items-center h-100">
-          <div className="page-header-text">
-            <h1 className="mb-3 page-header-text">Read Qaida</h1>
+      <div className="bgdiv">
+        <div
+          className="p-5 text-center bg-image"
+          style={{
+            // backgroundImage:
+            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+            backgroundImage: `url(${headerbg})`,
+          }}
+        >
+          <div className="d-flex page-header-title justify-content-center align-items-center h-100">
+            <div className="page-header-text">
+              <h1 className="mb-3 page-header-text">Read Qaida</h1>
+            </div>
           </div>
         </div>
       </div>
@@ -30,7 +31,7 @@ const Qaida = () => {
 
       {/* 2nd part of bayt us section  */}
 
-      <section className="common-section our-courses our-courses-rightside">
+      <section className="qaida-section our-courses our-courses-rightside">
         <div className="container mb-5">
           <div className="row">
             {/* 1section right side data  */}

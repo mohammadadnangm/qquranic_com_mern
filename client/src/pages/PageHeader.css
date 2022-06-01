@@ -1,7 +1,15 @@
+.bgdiv{
+  display: flex;
+  justify-content: center;
+  margin-top: -107px;
+}
 .bg-image{
   background-repeat: no-repeat;
   background-size: cover;
+  height: 350px;
+  width: 100%;
 }
+
 .page-header-title{
   background-color: transparent;
 }
@@ -9,4 +17,5 @@
   background-color: transparent;
   font-size: 50px;
   color: white;
+  margin-top: 3rem;
 }

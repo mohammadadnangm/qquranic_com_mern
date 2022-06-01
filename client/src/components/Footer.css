@@ -3,11 +3,10 @@
   color: black;
   margin-bottom: 5rem;
 }
-
 footer {
-  margin-top: 8rem;
-  padding: 5rem 0;
-  background-color: var(--bgcolor);
+  margin-top: 4rem;
+  /* padding: 5rem 0; */
+  background-color: white;
   color: #fff;
 }
 
@@ -64,7 +63,7 @@ footer li:hover {
 }
 
 footer .fontawesome-style {
-  font-size: 2.3rem;
+  font-size: 3.0rem;
   color: var(--primary-color);
   background-color: transparent;
   width: 0rem;
@@ -79,14 +78,14 @@ footer .fontawesome-style:hover {
   color: var(--fancy-color);
 }
 
-@keyframes rotatefont {
+/* @keyframes rotatefont {
   0% {
     transform: scale(0.6);
   }
   100% {
     transform: scale(1.2);
   }
-}
+} */
 
 footer .main-hero-para {
   margin: 0;
@@ -106,5 +105,9 @@ width: 90%;
   color: var(--text-color);
   font-size: 16px;
   
+}
+@media (max-width: 992px){
+  .copyright-row{
+flex-direction: column;  }
 }
 

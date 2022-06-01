@@ -61,7 +61,7 @@ const Navbar = () => {
         </li>
 
         <li className="nav-item">
-          <form className="d-flex">
+          <form className="d-flex register-button">
             <button
               className="btn  btn-style"
               type="submit"
@@ -118,12 +118,6 @@ const Navbar = () => {
           </div>
         </nav>
       </section>
-      {/* <div>
-        <img
-          className="HeadImage"
-          src="https://images.pexels.com/photos/8522572/pexels-photo-8522572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        />
-      </div> */}
     </>
   );
 };

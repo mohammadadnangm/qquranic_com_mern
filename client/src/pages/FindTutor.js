@@ -2,7 +2,7 @@ import React from "react";
 import "./FindTutors.css";
 import Navbar from "../components/Navbar";
 import { NavLink } from "react-router-dom";
-import headerbg from "../assets/headerbg.webp";
+import headerbg from "../assets/bg-1.jpeg";
 
 import Footer from "../components/Footer";
 
@@ -12,18 +12,20 @@ const FindTutor = () => {
       <Navbar />
 
       {/* page header start */}
-      <div
-        className="p-5 text-center bg-image"
-        style={{
-          // backgroundImage:
-          //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
-          backgroundImage: `url(${headerbg})`,
-          height: 400,
-        }}
-      >
-        <div className="d-flex page-header-title text-center justify-content-center align-items-center h-100">
-          <div className="page-header-text">
-            <h1 className="mb-3 page-header-text">Tutors</h1>
+      <div className="bgdiv">
+        <div
+          className="p-5 text-center bg-image"
+          style={{
+            // backgroundImage:
+            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
+            backgroundImage: `url(${headerbg})`,
+            height: 350,
+          }}
+        >
+          <div className="d-flex page-header-title text-center justify-content-center align-items-center h-100">
+            <div className="page-header-text">
+              <h1 className="mb-3 page-header-text">Tutors</h1>
+            </div>
           </div>
         </div>
       </div>
