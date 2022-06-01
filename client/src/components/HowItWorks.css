@@ -18,7 +18,7 @@
 .work-container-subdiv {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin: 20px 0px;
   background-color: #fff;
   padding: 10px;
 }
@@ -36,7 +36,7 @@
   width: 100%;
 }
 
-.work-section .courses-container-subdiv .fontawesome-style {
+.work-section .fontawesome-style {
   text-align: left;
   margin: 2rem 0;
 }

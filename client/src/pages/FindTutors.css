@@ -124,14 +124,30 @@
 
 @media screen and (max-width: 600px){
     .card{
-        width: 200px;
+        width: 100%;
         border-radius: 10px;
-        height: 300px;
+        height: 100%;
         padding: 10px;
         margin: 20px;
+        line-height: 5rem;
     }
     .card td{
         background-color: white;
         padding: 3px;
     }
 }
+
+@media (max-width: 740px){
+  .findtutore-rightside{
+    margin-top: 10rem;
+
+  }
+}
+
+@media (max-width: 740px){
+  .CardsMainDiv{
+    margin-top: 10rem;
+
+  }
+}
+

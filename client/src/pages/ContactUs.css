@@ -40,3 +40,12 @@
   width: 75%;
   padding: 0 2rem;
 }
+
+
+@media (max-width: 740px){
+  .contact-rightside{    
+    margin-top: 10rem;
+  }
+}
+
+

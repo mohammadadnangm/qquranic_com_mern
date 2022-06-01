@@ -48,7 +48,7 @@ const Header = () => {
                 teach others or whether you wish to learn, create an account and
                 begin your journey towards success.
               </p>
-              <h3>Want to know more about us?</h3>
+              <h3 className="header-btn-title">Want to know more about us?</h3>
               <div className="two btn">
                 <button className="btn-style btn-style1 btn-style-border">
                   About Us

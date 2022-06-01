@@ -91,6 +91,7 @@ const Contact = () => {
 
                 {/* right side contact form  */}
                 <div className="contact-rightside col-12 col-lg-7">
+                  <h1>Contact Form:</h1>
                   <form method="POST">
                     <div className="row">
                       <div className="col-12 col-lg-6 contact-input-feild">

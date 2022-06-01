@@ -87,7 +87,7 @@ const Course = () => {
               return (
                 <>
                   <div
-                    className="col-11 col-lg-4 col-xxl-4 text-center courses-container-subdiv"
+                    className="col-11 col-lg-4 col-xxl-4 text-center courses-container-subdivP"
                     key={id}
                   >
                     <i className={`course-image-p ${logo}`}></i>

@@ -23,7 +23,7 @@
 .courses-container-subdiv{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin: 20px 15px;
   background-color: #fff;
   padding: 25px;
 }
@@ -70,3 +70,14 @@ color: var(--fancy-color);}
   background-color: var(--primary-color);
 }
 
+@media (max-width: 740px){
+.courses-rightside {
+    margin-top: 10rem;
+}}
+
+@media (max-width: 740px){
+  .courses-container-subdiv{    
+    margin: 20px 0px;
+    padding: 25px 15px;
+  }
+}

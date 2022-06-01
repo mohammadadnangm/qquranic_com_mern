@@ -114,3 +114,9 @@
       width: 100%;
     }
   }
+
+  @media (max-width: 740px){
+    .feeplan-rightside{    
+      margin-top: 10rem;
+    }
+  }

@@ -1,6 +1,13 @@
 .aboutus-section {
   margin-top: 10rem;
 }
+@media (max-width: 992px){
+  .aboutus-section{
+    margin-top: 65rem;
+     
+  }
+}
+
 
 .aboutus-section .title {
   color: var(--primary-color);

@@ -76,4 +76,27 @@
 }
 .MainHeading{
     margin-top: 50px;
-}
+
+
+  }
+
+
+  @media (max-width: 740px){
+    .faqs-rightside{    
+      margin-top: 10rem;
+    }
+  }
+
+  @media (max-width: 740px){
+    .faqs-section-2 .row{    
+      margin-top: 10rem;
+    }
+  }
+
+  @media (max-width: 740px){
+    .faqs-section-2{    
+      margin-top: 10rem;
+    }
+  }
+
+
