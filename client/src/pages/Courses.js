@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import { NavLink } from "react-router-dom";
 import headerbg from "../assets/bg-1.jpeg";
 import Footer from "../components/Footer";
+import courses from "../assets/courses-image.png";
 
 const Course = () => {
   const [serviceData] = useState(coursesApi);
@@ -66,7 +67,7 @@ const Course = () => {
 
             {/* images section  */}
             <div className="col-12 col-lg-4  courses-rightside d-flex justify-content-center flex-end flex-column">
-              <img src="./images/hero1.png" alt="aboutusIMg" />
+              <img src={courses} alt="aboutusIMg" />
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./FaQs.css";
 import { NavLink } from "react-router-dom";
-
+import faqs from "../assets/faqs.png";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -67,7 +67,7 @@ const FaQ = () => {
 
             {/* images section  */}
             <div className="col-12 col-lg-4  faqs-rightside d-flex justify-content-center flex-end flex-column">
-              <img src="./images/hero1.png" alt="aboutusIMg" />
+              <img src={faqs} alt="aboutusIMg" />
             </div>
           </div>
         </div>

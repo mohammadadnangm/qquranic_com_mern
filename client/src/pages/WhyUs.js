@@ -5,6 +5,7 @@ import Numbers from "../components/Numbers";
 import Footer from "../components/Footer";
 import whyUsApi from "../API/whyUsApi.js";
 import headerbg from "../assets/bg-1.jpeg";
+import whyus from "../assets/whyus.png";
 const WhyUs = () => {
   const [aboutData] = useState(whyUsApi);
   return (
@@ -61,11 +62,7 @@ const WhyUs = () => {
 
             {/* images section  */}
             <div className="col-12 col-lg-5  text-center whyus-section-rightside-img">
-              <img
-                src="./images/callcenter.jpg"
-                alt="WhyUsImg"
-                className="whyus-img"
-              />
+              <img src={whyus} alt="WhyUsImg" className="whyus-img" />
             </div>
           </div>
         </div>

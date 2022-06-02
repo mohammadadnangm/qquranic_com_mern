@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { NavLink } from "react-router-dom";
 import headerbg from "../assets/bg-1.jpeg";
+import feeplan from "../assets/feeplan.webp";
 
 const PricePlan = () => {
   return (
@@ -64,7 +65,7 @@ const PricePlan = () => {
 
             {/* images section  */}
             <div className="col-12 col-lg-4  feeplan-rightside d-flex justify-content-center flex-end flex-column">
-              <img src="./images/hero1.png" alt="aboutusIMg" />
+              <img src={feeplan} alt="aboutusIMg" />
             </div>
           </div>
         </div>

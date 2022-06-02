@@ -6,6 +6,7 @@ import { useHistory } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import headerbg from "../assets/bg-1.jpeg";
+import contactus from "../assets/contactus.webp";
 
 const Contact = () => {
   const history = useHistory();
@@ -75,14 +76,45 @@ const Contact = () => {
                   <h1 className="main-heading fw-bold">
                     Connect With Our <br />
                   </h1>
-                  <h3>Sales Team.</h3>
-                  <p className="main-hero-para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Deserunt eaque alias similique.
-                  </p>
-                  <figure>
+                  <h3>Team</h3>
+                  <div className="main-hero-para">
+                    <div>
+                      <i
+                        className="fa fa-phone contact-icon"
+                        aria-hidden="true"
+                      >
+                        +923007575666
+                      </i>
+                    </div>
+
+                    <div>
+                      <i
+                        className="fa fa-address-book contact-icon"
+                        aria-hidden="true"
+                      >
+                        +923007575666
+                      </i>
+                    </div>
+                    <div>
+                      <i
+                        className="fa fa-envelope contact-icon"
+                        aria-hidden="true"
+                      >
+                        contact@qquranic.com
+                      </i>
+                    </div>
+                    {/* <div>
+                      <i
+                        className="fa fa-whatsapp contact-icon"
+                        aria-hidden="true"
+                      >
+                        +923007575666
+                      </i>
+                    </div> */}
+                  </div>
+                  <figure className="image-div flex start">
                     <img
-                      src="./images/hero1.png"
+                      src={contactus}
                       alt="contatUsImg"
                       className="img-fluid"
                     />

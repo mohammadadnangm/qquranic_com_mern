@@ -19,7 +19,7 @@ const AboutusC = () => {
 
             {/* 1section left side data  */}
             <div className="col-12 col-lg-7 d-flex justify-content-center align-items-start flex-column aboutus-section-lefttside">
-              <h1 className="title">About Quran Tutor</h1>
+              <h1 className="title">About Q Quranic</h1>
               <h3 className="heading">A Brief Summary</h3>
               <p className="description">
                 Do you want to read the Quran with proper pronunciation

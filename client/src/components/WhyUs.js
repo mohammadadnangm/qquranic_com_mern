@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./WhyUs.css";
 import whyUsApi from "../API/whyUsApi.js";
 import { NavLink } from "react-router-dom";
+import whyusimg from "../assets/whyus.png";
 
 const WhyUs = () => {
   const [aboutData] = useState(whyUsApi);
@@ -43,11 +44,7 @@ const WhyUs = () => {
 
             {/* images section  */}
             <div className="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column  text-center whyus-section-rightside-img">
-              <img
-                src="./images/callcenter.jpg"
-                alt="WhyUsImg"
-                className="whyus-img"
-              />
+              <img src={whyusimg} alt="WhyUsImg" className="whyus-img" />
             </div>
           </div>
         </div>

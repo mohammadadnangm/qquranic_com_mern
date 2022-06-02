@@ -22,6 +22,12 @@
 .navbar-light .navbar-brand{
   color: rgb(255, 255, 255);
 }
+.brand-div{
+  margin-top: 2rem;
+}
+.navbar-div{
+  margin-top: 2rem;
+}
 .navbar-nav{
   background-color: transparent;
 }

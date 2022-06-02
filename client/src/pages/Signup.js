@@ -5,6 +5,7 @@ import axios from "axios";
 import Navbar from "../components/Navbar";
 import headerbg from "../assets/bg-1.jpeg";
 import Footer from "../components/Footer";
+import signup from "../assets/signup.webp";
 
 const Signup = () => {
   const history = useHistory();
@@ -70,18 +71,14 @@ const Signup = () => {
                     New Here <br />
                   </h1>
                   <h3>Just Register To Get Started.</h3>
-                  <p className="main-hero-para">
+                  <p className="signup-para">
                     Fill the register form and click on register button to get
                     registered with Q Quranic. After registration our team will
                     contact you on the given WhatsApp Number or Email, try to
                     respond our team accordingly.
                   </p>
                   <figure>
-                    <img
-                      src="./images/hero1.png"
-                      alt="contatUsImg"
-                      className="img-fluid"
-                    />
+                    <img src={signup} alt="contatUsImg" className="img-fluid" />
                   </figure>
                 </div>
 

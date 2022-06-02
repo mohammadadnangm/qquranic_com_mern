@@ -26,13 +26,16 @@ header{
   text-transform: capitalize;
   font-weight: bolder;
 }
+.display-2{
+  color: #fff;
+}
 
 .main-hero-para {
   font-size: 1.5rem;
-  color: var(--text-color);
+  color: rgb(232, 228, 228);
   margin: 3rem 0 5rem 0;
   font-weight: lighter;
-  width: 75%;
+  width: 100%;
 }
 
 .header-container h3 {

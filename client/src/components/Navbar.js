@@ -91,12 +91,12 @@ const Navbar = () => {
       <section className="navbar-bg">
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container d-flex justify-content-between ">
-            <div>
+            <div className="brand-div">
               <NavLink className="nav-link navbar-brand" to="/">
                 Q Quranic
               </NavLink>
             </div>
-            <div>
+            <div className="navbar-div">
               <button
                 className="navbar-toggler"
                 type="button"

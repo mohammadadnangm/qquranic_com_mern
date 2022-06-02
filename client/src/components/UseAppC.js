@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./UseAppC.css";
 import useAppApi from "../API/useAppApi.js";
 import { NavLink } from "react-router-dom";
+import mobileapp from "../assets/mobile-app.png";
 
 const UseAppC = () => {
   const [aboutData] = useState(useAppApi);
@@ -11,7 +12,7 @@ const UseAppC = () => {
         <div className="container mb-5 useapp-container">
           <div className="row ">
             <div className="col-12 col-lg-5 text-center useapp-section-leftside-img">
-              <img src="./images/appimg.jpeg" alt="aboutusIMg" />
+              <img src={mobileapp} alt="mobile-app-image" />
             </div>
 
             <div className="col-12 col-lg-7 useapp-section-rightside d-flex justify-content-center align-items-start flex-column">

@@ -3,7 +3,7 @@ import "./FindTutors.css";
 import Navbar from "../components/Navbar";
 import { NavLink } from "react-router-dom";
 import headerbg from "../assets/bg-1.jpeg";
-
+import tutors from "../assets/tutors.svg";
 import Footer from "../components/Footer";
 
 const FindTutor = () => {
@@ -66,7 +66,7 @@ const FindTutor = () => {
 
             {/* images section  */}
             <div className="col-12 col-lg-4  findtutore-rightside d-flex justify-content-center flex-end flex-column">
-              <img src="./images/hero1.png" alt="aboutusIMg" />
+              <img src={tutors} alt="aboutusIMg" />
             </div>
           </div>
         </div>
