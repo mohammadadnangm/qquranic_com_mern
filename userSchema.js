@@ -4,11 +4,10 @@ const userSchema = new mongoose.Schema({
   name: String,
   email: String,
   phone: Number,
-  course: String,
-  country: String,
-  tokens: {
-    type: String,
-  },
+
+  // tokens: {
+  //   type: String,
+  // },
 });
 
 // userSchema.methods.generateAuthToken = async function () {

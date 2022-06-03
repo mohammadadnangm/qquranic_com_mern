@@ -19,8 +19,6 @@ const Course = () => {
         <div
           className="p-5 text-center bg-image"
           style={{
-            // backgroundImage:
-            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
             backgroundImage: `url(${headerbg})`,
           }}
         >
@@ -79,7 +77,8 @@ const Course = () => {
             Different Islamic Courses
           </h1>
           <h3 className="sub-heading text-center">
-            To see detail of any course, just click on course name it.
+            To see detail of any course, just click on course name it. ا ب ت ث ج
+            ح خ د ذ ر ز س ش ص ض ط ظ ع غ ط ظ ع غ ف ق ك ل م ن و ه ء ي ے
           </h3>
 
           <div className="row">

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import "./Signup.css";
-import axios from "../API/axios.js";
+import axios from "axios";
 import Navbar from "../components/Navbar";
 import headerbg from "../assets/bg-1.jpeg";
 import Footer from "../components/Footer";
@@ -15,8 +15,8 @@ const Signup = () => {
     name: "",
     email: "",
     phone: "",
-    // course: "",
-    // country: "",
+    course: "",
+    country: "",
   });
 
   const handleChange = (e) => {
@@ -29,17 +29,14 @@ const Signup = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    const { name, email, phone } = user;
-    if (!name || !email || !phone) {
-      alert("Fill all fields correctly!");
-    }
-    if (!validator.isEmail(email)) {
-      alert("Enter a valid email address!");
-    } else {
+    const { name, email, phone, course, country } = user;
+    if (name && email && phone && course && country) {
       axios.post("/signup", user).then((res) => {
         alert(res.data.message);
-        // history.push("/");
+        history.push("/");
       });
+    } else {
+      alert("invlid input front end");
     }
   };
 
@@ -126,7 +123,7 @@ const Signup = () => {
                           onChange={handleChange}
                         />
                       </div>
-                      {/* <div className="col-12 col-lg-6 signup-input-feild">
+                      <div className="col-12 col-lg-6 signup-input-feild">
                         <select
                           name="course"
                           id="course"
@@ -142,10 +139,10 @@ const Signup = () => {
                           <option>Quran Tafseer</option>
                           <option>Namaz, Kalma, Dua</option>
                         </select>
-                      </div> */}
+                      </div>
                     </div>
                     <div className="row">
-                      {/* <div className="col-12 signup-input-feild">
+                      <div className="col-12 signup-input-feild">
                         <input
                           type="text"
                           name="country"
@@ -156,7 +153,7 @@ const Signup = () => {
                           value={user.country}
                           onChange={handleChange}
                         />
-                      </div> */}
+                      </div>
                     </div>
 
                     <button

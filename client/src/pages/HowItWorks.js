@@ -17,8 +17,6 @@ const HowItWorks = () => {
         <div
           className="p-5 text-center bg-image"
           style={{
-            // backgroundImage:
-            //   "url('https://mdbootstrap.com/img/new/slides/041.webp')",
             backgroundImage: `url(${headerbg})`,
           }}
         >

@@ -10,10 +10,10 @@ var transporter = nodemailer.createTransport({
     ciphers: "SSLv3",
   },
   auth: {
-    user: "eastmedicalsystem@gmail.com",
-    pass: "System...+++",
+    user: "qquranicdomain@gmail.com",
+    pass: "yousufmalana99",
   },
-  from: "eastmedicalsystem@gmail.com",
+  from: "qquranicdomain@gmail.com",
 });
 
 function ContactusInfo(req, res) {
@@ -23,7 +23,7 @@ function ContactusInfo(req, res) {
   //   res.end("all fields required");
   // } else {
   var mailOption = {
-    from: "Student Finance England eastmedicalsystem@gmail.com",
+    from: "Q Quranic - Online Quran Teaching Academy",
     to: "Khayum1@hotmail.co.uk",
     // to: "mdkprogrammer@gmail.com",
     subject: "Security Alert",

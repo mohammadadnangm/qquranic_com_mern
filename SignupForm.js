@@ -16,27 +16,25 @@ app.use(cors());
 app.use(cookieParser());
 
 //Sign Up Routes
-
 function SignupForm(req, res) {
-  const { name, email, number, course, country } = req.body;
+  const { name, email, phone } = req.body;
   User.findOne({ email: email }, (err, user) => {
     if (user) {
-      res.send({ message: "User already registerd backend" });
+      res.send({ message: "User already registerd!" });
     } else {
       const user = new User({
         name,
         email,
         phone,
-        course,
-        country,
       });
       user.save((err) => {
         if (err) {
           res.send(err);
         } else {
           res.send({
-            message: "Successfully Registered, Please login now. backend",
+            message: "Successfully registered we will get back to you asap.",
           });
+          localStorage.setItem("userInfo", JSON.stringify(user));
         }
       });
     }
