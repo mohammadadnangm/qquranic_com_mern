@@ -35,8 +35,8 @@ const FaQ = () => {
             {/* 1section right side data  */}
             <div className="col-12 col-lg-6  faqs-leftside d-flex justify-content-center flex-start flex-column">
               <h1 className="title">Frequently asked question (FaQs)</h1>
-              <h3 className="heading">A Brief Summary</h3>
-              <p className="description">
+
+              {/* <p className="description">
                 Do you want to read the Quran with proper pronunciation
                 (Tajweed)? Would you like your child to memorize the Quran
                 (Hifz) but don't know where to start? At Qutor, we make it our
@@ -44,7 +44,7 @@ const FaQ = () => {
                 goals. Whether you are proficient in reading the Quran and want
                 to teach others or whether you wish to learn, create an account
                 and begin your journey towards success.
-              </p>
+              </p> */}
 
               <br />
               <h3 className="heading">

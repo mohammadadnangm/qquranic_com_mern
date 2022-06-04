@@ -127,11 +127,16 @@ align-items: center;
   background-color: #fff;
 }
 
-.courses-container-subdiv .main-hero-para {
-  width: 100%;
-}
 .courses-container-subdiv .sub-heading {
-  color: var(--fancy-color);}
+  color: var(--fancy-color);
+}
+.course-description{
+  font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 3rem 0 5rem 0;
+    font-weight: lighter;
+    width: 100%;
+}
 
 .course-section-2 .courses-container-subdiv .fontawesome-style {
   text-align: left;

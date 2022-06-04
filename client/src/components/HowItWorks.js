@@ -20,7 +20,7 @@ const HowItWorks = () => {
                   <div className="col-12 col-lg-4 text-center work-container-subdiv">
                     <i className={`fontawesome-style ${logo}`}></i>
                     <h2 className="sub-heading">{title}</h2>
-                    <p className="main-hero-para w-100">{info}</p>
+                    <p className="howitworks-description">{info}</p>
                   </div>
                 </>
               );

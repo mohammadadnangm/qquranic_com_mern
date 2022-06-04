@@ -25,9 +25,9 @@ app.use(cors());
 app.use(cookieParser());
 
 //backend server check running
-app.get("/", (req, res) => {
-  res.send("Backend Server and API's are Running!");
-});
+// app.get("/", (req, res) => {
+//   res.send("Backend Server and API's are Running!");
+// });
 
 //about me page here...
 app.get("/aboutme", LoginCheck);

@@ -36,15 +36,11 @@ const Course = () => {
           <div className="row">
             <div className="col-12 col-lg-6  courses-leftside d-flex justify-content-center flex-start flex-column">
               <h1 className="title">Course We Offere</h1>
-              <h3 className="heading">A Brief Summary</h3>
+              <h3 className="heading">Basic to advance islamic courses.</h3>
               <p className="description">
-                Do you want to read the Quran with proper pronunciation
-                (Tajweed)? Would you like your child to memorize the Quran
-                (Hifz) but don't know where to start? At Qutor, we make it our
-                mission to develop innovative tools to help you achieve these
-                goals. Whether you are proficient in reading the Quran and want
-                to teach others or whether you wish to learn, create an account
-                and begin your journey towards success.
+                Q Quranic provide different islamic courses inlcuding basic to
+                advance level. We teach these courses we offer very well through
+                a step by step process of teaching and learning.
               </p>
 
               <br />
@@ -77,8 +73,7 @@ const Course = () => {
             Different Islamic Courses
           </h1>
           <h3 className="sub-heading text-center">
-            To see detail of any course, just click on course name it. ا ب ت ث ج
-            ح خ د ذ ر ز س ش ص ض ط ظ ع غ ط ظ ع غ ف ق ك ل م ن و ه ء ي ے
+            To see detail of any course, just click on course name it.
           </h3>
 
           <div className="row">
@@ -92,12 +87,12 @@ const Course = () => {
                   >
                     <i className={`course-image-p ${logo}`}></i>
                     <h2 className="sub-heading">{title}</h2>
-                    <p className="main-hero-para">{info}</p>
+                    <p className="course-description">{info}</p>
                     <div className="button-row">
                       <button className="btn ">
                         <NavLink
                           className="btn-style1 p-3 btn-howitworks-border"
-                          to="/findtutors"
+                          to="#"
                         >
                           Course Detail
                         </NavLink>

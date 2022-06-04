@@ -3,22 +3,21 @@ const howItWorkApi = [
     id: 1,
     logo: "fas fa-download",
     title: "Choose Course",
-    info:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?",
+    info: "See the courses at Q Quranic, and choose your desired course.",
   },
   {
     id: 2,
     logo: "fas fa-chalkboard-teacher",
     title: "Choose Time",
     info:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?",
+      "Select your best free time at which you want to take classes regularly.",
   },
   {
     id: 3,
     logo: "fas fa-donate",
     title: "Get started",
     info:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?",
+      "Contact us or register through our website register page, then after that our team contact you to provide or give more details.",
   },
 ];
 

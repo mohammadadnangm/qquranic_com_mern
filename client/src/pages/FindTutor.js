@@ -34,15 +34,14 @@ const FindTutor = () => {
             {/* 1section right side data  */}
             <div className="col-12 col-lg-6  findtutor-leftside d-flex justify-content-center flex-start flex-column">
               <h1 className="title">Find Your Tutor Here</h1>
-              <h3 className="heading">A Brief Summary</h3>
+              <h3 className="heading">We have experienced staff.</h3>
               <p className="description">
-                Do you want to read the Quran with proper pronunciation
-                (Tajweed)? Would you like your child to memorize the Quran
-                (Hifz) but don't know where to start? At Qutor, we make it our
-                mission to develop innovative tools to help you achieve these
-                goals. Whether you are proficient in reading the Quran and want
-                to teach others or whether you wish to learn, create an account
-                and begin your journey towards success.
+                Tutors at Q Quranic are very professional at their Quran
+                teaching skills. They are all well education from Islamic
+                education centers. <br />
+                You can go through the below tutors profile and can contact the
+                Q Quranic team to assign your choosin tutor on your preferable
+                time.
               </p>
 
               <br />

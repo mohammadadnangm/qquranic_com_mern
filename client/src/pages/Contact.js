@@ -72,35 +72,43 @@ const Contact = () => {
               <div className="row">
                 <div className="contact-leftside col-12 col-lg-5">
                   <h1 className="main-heading fw-bold">
-                    Connect With Our <br />
+                    Connect with us <br />
                   </h1>
-                  <h3>Team</h3>
-                  <div className="main-hero-para">
-                    <div>
-                      <i
-                        className="fa fa-phone contact-icon"
-                        aria-hidden="true"
-                      >
-                        +923007575666
-                      </i>
+
+                  <div className="contact-list">
+                    <h3 className="contact-heading">Phone:</h3>
+                    <div className="contact-item">
+                      <div className="contact-icon-div">
+                        <i
+                          className="fa fa-phone contact-icon"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                      <div className="contact-text">00923007575666</div>
                     </div>
 
-                    <div>
-                      <i
-                        className="fa fa-address-book contact-icon"
-                        aria-hidden="true"
-                      >
-                        +923007575666
-                      </i>
+                    <h3 className="contact-heading">WhatsApp:</h3>
+                    <div className="contact-item">
+                      <div className="contact-icon-div">
+                        <i
+                          className="fa fa-whatsapp contact-icon"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                      <div className="contact-text">00923007575666</div>
                     </div>
-                    <div>
-                      <i
-                        className="fa fa-envelope contact-icon"
-                        aria-hidden="true"
-                      >
-                        contact@qquranic.com
-                      </i>
+
+                    <h3 className="contact-heading">Email:</h3>
+                    <div className="contact-item">
+                      <div className="contact-icon-div">
+                        <i
+                          className="fa fa-envelope contact-icon"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                      <div className="contact-text">contact@qquranic.com</div>
                     </div>
+
                     {/* <div>
                       <i
                         className="fa fa-whatsapp contact-icon"

@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import headerbg from "../assets/bg-1.jpeg";
 import Numbers from "../components/Numbers";
 import UseAppC from "../components/UseAppC";
+import ceoimg from "../assets/ceo.png";
 
 const Aboutus = () => {
   return (
@@ -38,13 +39,11 @@ const Aboutus = () => {
               <h1 className="title">About Q Quranic</h1>
               <h3 className="heading">A Brief Summary</h3>
               <p className="description">
-                Do you want to read the Quran with proper pronunciation
-                (Tajweed)? Would you like your child to memorize the Quran
-                (Hifz) but don't know where to start? At Qutor, we make it our
-                mission to develop innovative tools to help you achieve these
-                goals. Whether you are proficient in reading the Quran and want
-                to teach others or whether you wish to learn, create an account
-                and begin your journey towards success.
+                Q Quranic is the leading Online Quran Academy. Q Quranic Online
+                Quran Learning Academy is providing the best of the staff and
+                Have a Professional Team. We Q Quranic is offering the different
+                types of Islamic courses. So, everyone can choose their desire
+                course and start learning the course.
               </p>
 
               <br />
@@ -85,30 +84,26 @@ const Aboutus = () => {
         <div className="container aboutus-container">
           <div className="row">
             <div className="col-12 col-lg-5 text-center  rightside-img">
-              <img
-                src="./images/aboutsection.png"
-                alt="aboutusImg"
-                className="about-img"
-              />
+              <img src={ceoimg} alt="aboutusImg" className="about-img" />
             </div>
 
             <div className="col-12 col-lg-7 d-flex justify-content-center align-items-start flex-column aboutus-section-lefttside">
-              <h1 className="title">About Quran Tutor</h1>
-              <h3 className="heading">A Brief Summary</h3>
+              <h1 className="title">A Message From CEO Q Quranic</h1>
+              <h3 className="heading">-Muhammad Yousuf</h3>
               <p className="description">
-                Do you want to read the Quran with proper pronunciation
-                (Tajweed)? Would you like your child to memorize the Quran
-                (Hifz) but don't know where to start? At Qutor, we make it our
-                mission to develop innovative tools to help you achieve these
-                goals. Whether you are proficient in reading the Quran and want
-                to teach others or whether you wish to learn, create an account
-                and begin your journey towards success.
+                AOA, My aim is to make every muslim able to learn all about
+                islamic education, specially The Holly Quran. <br />
+                We have build a complete setup to provide online islamic
+                learning worldwide using internet mediums. Through kids, adults
+                and old one's can learn every aspect of islam. All of you help
+                us to spread the knwoledge and join people more and more by
+                sharing the Q Quranic Aim.
               </p>
               <br />
               <h3>Reach the CEO of Q Quranic by:</h3> <br />
               <div className="button-row">
                 <a
-                  href="tel:+15555551212"
+                  href="tel:+923007575666"
                   className="btn btn-style1 p-3 btn-howitworks-border"
                 >
                   Call

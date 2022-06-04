@@ -37,11 +37,8 @@ const Qaida = () => {
               <h3 className="mini-title">QaidaReading</h3>
               <h1 className="main-heading">A Brief Summary</h1>
               <p className="description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Delectus reprehenderit molestias impedit eius voluptates
-                voluptatum? Obcaecati assumenda blanditiis vel, est at dolores
-                consequuntur dicta fugiat pariatur eos iusto, error
-                perspiciatis.
+                ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ط ظ ع غ ف ق ك ل م ن و ه ء
+                ي ے
               </p>
 
               <br />

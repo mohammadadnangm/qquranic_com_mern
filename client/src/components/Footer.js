@@ -18,13 +18,11 @@ const Footer = () => {
                   <img src={logo} alt="footer-logo" className="footer-logo" />
                   <br />
                   <p className="footer-para">
-                    Do you want to read the Quran with proper pronunciation
-                    (Tajweed)? Would you like your child to memorize the Quran
-                    (Hifz) but don't know where to start? At Qutor, we make it
-                    our mission to develop innovative tools to help you achieve
-                    these goals. Whether you are proficient in reading the Quran
-                    and want to teach others or whether you wish to learn,
-                    create an account and begin your journey towards success.
+                    Q Quranic is the leading Online Quran Academy. Q Quranic
+                    Online Quran Learning Academy is providing the best of the
+                    staff and Have a Professional Team. We Q Quranic is offering
+                    the different types of Islamic courses. So, everyone can
+                    choose their desire course and start learning the course.
                   </p>
                 </div>
 

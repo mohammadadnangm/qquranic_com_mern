@@ -24,7 +24,7 @@ const Courses = () => {
                   >
                     <i className={`fontawesome-style ${logo}`}></i>
                     <h2 className="sub-heading">{title}</h2>
-                    <p className="main-hero-para">{info}</p>
+                    <p className="course-description">{info}</p>
                   </div>
                 </>
               );

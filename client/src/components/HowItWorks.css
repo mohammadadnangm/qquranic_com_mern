@@ -10,10 +10,6 @@
   width: 90%;
   
 }
-.main-hero-para,
-.sub-heading{
-  background-color: transparent;
-}
 
 .work-container-subdiv {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -32,8 +28,15 @@
   background-color: var(--fancy-color);
 }
 
-.work-container-subdiv .main-hero-para {
+.work-container-subdiv .howitworks-description {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  font-weight: lighter;
   width: 100%;
+}
+.main-hero-para,
+.sub-heading{
+  background-color: transparent;
 }
 
 .work-section .fontawesome-style {

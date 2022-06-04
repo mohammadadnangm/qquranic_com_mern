@@ -55,6 +55,12 @@
 .useapp-section-title{
   color: var(--fancy-color);
 }
+.useapp-section .useapp-description {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  font-weight: lighter;
+  width: 100%;
+}
 
 .useapp-section-data {
   padding-left: 2rem;

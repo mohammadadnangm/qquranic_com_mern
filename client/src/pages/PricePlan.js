@@ -36,13 +36,9 @@ const PricePlan = () => {
               <h1 className="title">Q Quranic Fee & Plans</h1>
               <h3 className="heading">Plans that match everyone needs..</h3>
               <p className="description">
-                Do you want to read the Quran with proper pronunciation
-                (Tajweed)? Would you like your child to memorize the Quran
-                (Hifz) but don't know where to start? At Qutor, we make it our
-                mission to develop innovative tools to help you achieve these
-                goals. Whether you are proficient in reading the Quran and want
-                to teach others or whether you wish to learn, create an account
-                and begin your journey towards success.
+                Q Quran Fee and Plans are very flexible to match every one
+                needs. We take very less amount so everyone can take classes and
+                learn from us.
               </p>
 
               <br />
