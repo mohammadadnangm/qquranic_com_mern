@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import "./Header.css";
-import axios from "axios";
+import axios from "../API/axios";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const history = useHistory();
@@ -50,11 +51,21 @@ const Header = () => {
               </p>
               <h3 className="header-btn-title">Want to know more about us?</h3>
               <div className="two btn">
-                <button className="btn-style btn-style1 btn-style-border">
-                  About Us
+                <button className="btn">
+                  <NavLink
+                    className="btn-style btn-style1 btn-style-border"
+                    to="/aboutus"
+                  >
+                    About Us
+                  </NavLink>
                 </button>
-                <button className="btn-style2 btn-style-border ">
-                  Our Tutors
+                <button className="btn ">
+                  <NavLink
+                    className="btn-style2 btn-style-border"
+                    to="/contact"
+                  >
+                    Contact Us
+                  </NavLink>
                 </button>
               </div>
             </div>

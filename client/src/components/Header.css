@@ -56,13 +56,14 @@ header{
   border-radius: 5px;
 }
 .btn-style1{
+  padding: 8px;
   border-color: #fff;
   color: var(--text-color);
 }
 
-.btn-style2{
-  width: 12rem;
-  height: 4rem;
+.header-section .btn-style2{
+  padding: 8px;
+  
   border-radius: 2rem;
   color: #fff;
   background-color: var(--primary-color);
