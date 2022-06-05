@@ -16,23 +16,21 @@ var transporter = nodemailer.createTransport({
   from: "qquranicdomain@gmail.com",
 });
 
-function ContactusInfo(req, res) {
-  const { firstName, lastName, phone, email, address, message } = req.body;
+function getTrail(){
+    
+    const { name, email, phone, course, country } = req.body;
 
-  if (!firstName || !lastName || !phone || !email || !address || !message) {
-    res.end("all fields required");
-  } else {
   var mailOption = {
     from: "Q Quranic - qquranicdomain@gmail.com",
     to: "mdkprogrammer@gmail.com",
-    subject: "Contact-Us",
-    text: "this email from Q Quranic",
+    subject: "Get Free Trial",
+    text: "This email form Q Quranic",
     html: ` <h2>Information</h2>
-              <h4>Name: ${firstName} ${lastName}</h4>
-              <h4>Phone: ${phone}</h4>
-              <p>Email: ${email}</p>
-              <p>Address: ${address}</p>
-              <p>Address: ${message}</p>`
+              <p>Name: ${name}</p>
+              <p>Phone: ${email}</p>
+              <p>Email: ${phone}</p>
+              <p>Address: ${course}</p>
+              <p>Address: ${country}</p>`
   };
 
   //send email to user for verification of account
@@ -44,6 +42,5 @@ function ContactusInfo(req, res) {
     }
   });
  }
-}
 
-module.exports = ContactusInfo;
+module.exports = getTrail;

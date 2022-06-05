@@ -11,6 +11,7 @@ const LoginCheck = require("./LoginCheck");
 const LoginForm = require("./LoginForm");
 const SignupForm = require("./SignupForm");
 const ContactusInfo = require("./ContactusInfo");
+const getTrail = require("./trail");
 dotenv.config({ path: "./config.env" });
 
 const PORT = process.env.PORT || 5001;
@@ -34,6 +35,9 @@ app.get("/aboutme", LoginCheck);
 
 //sign in route
 app.post("/signin", LoginForm);
+
+//sign in route
+app.post("/trail", getTrail);
 
 //Signup/Register Route
 app.post("/signup", SignupForm);

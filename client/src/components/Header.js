@@ -27,7 +27,7 @@ const Header = () => {
     e.preventDefault();
     const { name, email, phone, course, country } = user;
     if (name && email && phone && course && country) {
-      axios.post("/signup", user).then((res) => {
+      axios.post("/trail", user).then((res) => {
         alert(res.data.message);
         history.push("/");
       });
