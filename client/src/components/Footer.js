@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../assets/footer-logo.png";
+import footerlogo from "../assets/footer-logo1.png";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
@@ -15,7 +15,11 @@ const Footer = () => {
               <div className="row">
                 <div className="col-12 col-lg-3 coloumn-1 d-grid">
                   {/* <h2 className="footer-title">Q Quranic</h2> */}
-                  <img src={logo} alt="footer-logo" className="footer-logo" />
+                  <img
+                    src={footerlogo}
+                    alt="footer-logo"
+                    className="footer-logo"
+                  />
                   <br />
                   <p className="footer-para">
                     Q Quranic is the leading Online Quran Academy. Q Quranic
@@ -113,7 +117,11 @@ const Footer = () => {
                     </div> */}
                     <div className="col-12 mx-auto img2">
                       <a href="/">
-                        <img src="./images/playstore.png" alt="App Store" />
+                        <img
+                          src="./images/playstore.png"
+                          alt="App Store"
+                          className="playstore-logo"
+                        />
                       </a>
                     </div>
                   </div>
