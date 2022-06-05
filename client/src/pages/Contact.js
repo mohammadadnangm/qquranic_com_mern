@@ -48,7 +48,7 @@ const Contact = () => {
     <>
       <Navbar />
 
-      {/* page header start */}
+      {/* page header start there*/}
       <div className="bgdiv">
         <div
           className="p-5 text-center bg-image"
