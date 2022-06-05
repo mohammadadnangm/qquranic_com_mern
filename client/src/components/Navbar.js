@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { useHistory } from "react-router-dom";
 import { UserContext } from "../App";
+import menulogo from "../assets/menu-logo1.png";
 
 const Navbar = () => {
   const RenderMenu = () => {
@@ -39,6 +40,7 @@ const Navbar = () => {
             About Us
           </NavLink>
         </li>
+
         <li className="nav-item">
           <NavLink className="nav-link" to="/contact">
             Contact Us
@@ -49,7 +51,7 @@ const Navbar = () => {
             FAQs
           </NavLink>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink className="nav-link" to="/whyus">
             Why Us
           </NavLink>
@@ -58,7 +60,7 @@ const Navbar = () => {
           <NavLink className="nav-link" to="/howitworks">
             How
           </NavLink>
-        </li>
+        </li> */}
 
         <li className="nav-item">
           <form className="d-flex register-button">
@@ -93,8 +95,13 @@ const Navbar = () => {
           <div className="container d-flex justify-content-between ">
             <div className="brand-div">
               <NavLink className="nav-link navbar-brand" to="/">
-                Q Quranic
+                <img src={menulogo} alt="qquranic logo" className="logo" />
               </NavLink>
+              {/* <img
+                src={logo}
+                alt="qquranic-logo"
+                className="nav-link navbar-brand"
+              /> */}
             </div>
             <div className="navbar-div">
               <button
@@ -107,7 +114,8 @@ const Navbar = () => {
                 aria-label="Toggle navigation"
                 onClick={() => setShow(!show)}
               >
-                <span className="navbar-toggler-icon"></span>
+                {/* <span className="navbar-toggler-icon"></span> */}
+                <i className="fas fa-bars navbar-bars"></i>
               </button>
               <div className={`collapse navbar-collapse ${show ? "show" : ""}`}>
                 <ul className="navbar-nav mb-2 mb-lg-0">

@@ -19,6 +19,10 @@
   font-size: 2.5rem;
   background-color: transparent;
 }
+.navbar-bg .logo{
+  width: 114px;
+  margin-bottom: 0rem;
+}
 .navbar-light .navbar-brand{
   color: rgb(255, 255, 255);
 }
@@ -30,6 +34,10 @@
 }
 .navbar-nav{
   background-color: transparent;
+}
+.navbar-bars{
+  color: #fff;
+  font-size: 22px;
 }
 .navbar-collapse{
   background-color: transparent;

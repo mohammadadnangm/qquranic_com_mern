@@ -39,7 +39,15 @@ ol, ul{
   justify-content: left;
   display: grid;
 }
-img {
+.footer-logo {
+  height: 10rem;
+  width: 25rem;
+  text-align: left;
+  float: left;
+  justify-content: left;
+  margin: -1rem;
+}
+.playstore-logo {
   height: 10rem;
   width: 25rem;
   text-align: left;
