@@ -1,6 +1,7 @@
 {
   "name": "qquranic_com_web",
   "version": "1.0.0",
+  "homepage": "http://qquranic.com",
   "description": "",
   "main": "index.js",
   "scripts": {
