@@ -20,7 +20,6 @@ import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import Logout from "./components/Logout";
 import Error from "./pages/Error";
-
 import { initialState, reducer } from "./reducer/UseReducer";
 // 1 context api
 export const UserContext = createContext();

@@ -1,3 +1,17 @@
+working proxy deleted for heroku
+"proxy": "http://127.0.0.1:5001/",
+
+working lsst time, i have deleted to deploye app on heroku,,,write after private
+  "proxy": "http://localhost:5001",
+
+
+make new file and add axios import from axios and mmake base url to server port.
+
+npm i bootstrap
+npm i react-router-dom
+
+
+
 used bootstrap 5...used css, bundle, separator also
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
 used Navbar component from btstrp 5

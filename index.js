@@ -36,7 +36,7 @@ app.get("/aboutme", LoginCheck);
 //sign in route
 app.post("/signin", LoginForm);
 
-//sign in route
+//get trial route
 app.post("/trail", getTrail);
 
 //Signup/Register Route
@@ -44,6 +44,12 @@ app.post("/signup", SignupForm);
 
 //contact us form route
 app.post("/contactus", ContactusInfo);
+
+//Logout page  route
+// app.get("/logout", (req, res) => {
+//   res.clearCookie("quranTutor", { path: "/" });
+//   res.status(200).send("user logged out");
+// });
 
 if (process.env.NODE_ENV == "production") {
   app.use(express.static("client/build"));
